@@ -69,7 +69,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "Terminal: 🤖 Creating README and pushing files"
+                  "title": "Terminal: 🤖 Waiting for git push to complete"
                 }
               }
             ]
@@ -286,6 +286,7 @@
   },
   "active": "6b79efbcd3041f2a",
   "lastOpenFiles": [
+    "README.md",
     "Home.md",
     "20 Projects/Engineering/Aprendizaje de Algoritmos.md",
     "20 Projects/Engineering/LeetCode Problems.md",
@@ -324,7 +325,6 @@
     "00 Inbox/Fuentes Personalizadas - NativeWind.md",
     "00 Inbox/sedWKyRl5",
     "00 Inbox/sedjMxMuZ",
-    "Templates/3-Knowledge Note.md",
     "99 System/Attachments/Imagen De Tailwind Como Funciona.png"
   ]
 }
