@@ -1,0 +1,330 @@
+{
+  "main": {
+    "id": "b69bc849855b29f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "9f311298b6417f4f",
+        "type": "split",
+        "children": [
+          {
+            "id": "b96121e3550b248a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2a0e5f0e7c1a382b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Home.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "id": "24fe163d0b053d78",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6b79efbcd3041f2a",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "C:\\Users\\zarfo\\OneDrive\\Documentos\\Obsidian\\Soyt0ny",
+                      "focus": false,
+                      "profile": {
+                        "args": [],
+                        "executable": "C:\\Windows\\System32\\wsl.exe",
+                        "followTheme": true,
+                        "name": "WSL",
+                        "platforms": {
+                          "linux": true,
+                          "win32": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": false,
+                        "rightClickAction": "copyPaste",
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "serial": null
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "Terminal: 🤖 Creating README and pushing files"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "edd9cd2a3d1a89c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "3bc7b739a93b136d",
+        "type": "tabs",
+        "dimension": 70.19374068554396,
+        "children": [
+          {
+            "id": "1d25be8631dde114",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4e1331589aa82841",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[\"status\"]",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "10d2438fd8b02abc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2ad3db4f77e219e6",
+        "type": "tabs",
+        "dimension": 29.806259314456035,
+        "children": [
+          {
+            "id": "651e6e21e86e4cad",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 282
+  },
+  "right": {
+    "id": "a29c753f21b7af95",
+    "type": "split",
+    "children": [
+      {
+        "id": "e5954ad2d69cd054",
+        "type": "tabs",
+        "dimension": 64.10018552875695,
+        "children": [
+          {
+            "id": "7213bf384b1ff4df",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "043fddb0311286c8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "dd33a911aad5ea7d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Home.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Home"
+            }
+          },
+          {
+            "id": "aee5dd86df585ac1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6fe5ef4ae3b27736",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Home.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Home"
+            }
+          },
+          {
+            "id": "ae9063c5fe413630",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "0c8f9162a8b97c8c",
+        "type": "tabs",
+        "dimension": 35.89981447124304,
+        "children": [
+          {
+            "id": "32d7e1d84b526cd6",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 320
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "terminal:Open terminal": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "6b79efbcd3041f2a",
+  "lastOpenFiles": [
+    "Home.md",
+    "20 Projects/Engineering/Aprendizaje de Algoritmos.md",
+    "20 Projects/Engineering/LeetCode Problems.md",
+    "20 Projects/Engineering/Curso Expo con React  Fernando Herrera.md",
+    "30 Areas/Software Engineering/ALGORITHMS.md",
+    "30 Areas/Software Engineering/APP DEVELOP.md",
+    "99 System/Books/Cracking the Coding Interview.pdf",
+    "99 System/Books/Introduction To Algorithms Pro.pdf",
+    "99 System/Books/Algorithms Ilustrado Grokking.pdf",
+    "99 System/Books/Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow.pdf",
+    "99 System/Books/Essential Math for Data Science .pdf",
+    "99 System/Books/Designing Data-Intensive Applications.pdf",
+    "99 System/Books",
+    "10 Daily/2026-02-26.md",
+    "10 Daily/2026-02-25.md",
+    "Templates/Example - Daily Note.md",
+    "20 Projects/Engineering/A.md",
+    "00 Inbox/2026-02-26.md",
+    "40 Knowledge/Native Wind.md",
+    "40 Knowledge/Fuentes Personalizadas - NativeWind.md",
+    "40 Knowledge/Navegación - Expo.md",
+    "40 Knowledge/Stacks - Expo.md",
+    "00 Inbox/Curso Expo con React.md",
+    "40 Knowledge/Colores Personalizados - NativeWind.md",
+    "40 Knowledge/Expo Framework.md",
+    "40 Knowledge/Expo Framework.md",
+    "00 Inbox/Expo Framework.md",
+    "00 Inbox/Navegación Expo.md",
+    "00 Inbox/Stacks Expo.md",
+    "00 Inbox/2026-02-21.md",
+    "99 System/Attachments/Pasted image 20260225170512.png",
+    "99 System/Attachments/Pasted image 20260225161540.png",
+    "99 System/Attachments/Imagen De Tailwind Como Funciona.png.png",
+    "99 System/Archive/sed1wjEYW",
+    "00 Inbox/Colores Personalizados - NativeWind.md",
+    "00 Inbox/Fuentes Personalizadas - NativeWind.md",
+    "00 Inbox/sedWKyRl5",
+    "00 Inbox/sedjMxMuZ",
+    "Templates/3-Knowledge Note.md",
+    "99 System/Attachments/Imagen De Tailwind Como Funciona.png"
+  ]
+}

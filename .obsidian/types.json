@@ -1,0 +1,14 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "date": "date",
+    "Stack": "multitext",
+    "semester": "number",
+    "start_date": "date",
+    "status": "text",
+    "Tech": "multitext",
+    "area": "text"
+  }
+}
