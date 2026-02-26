@@ -60,4 +60,4 @@ Los proyectos deben incluir `start_date: '{"date":null}'`.
   2. Mover a `99 System/Archive/` (si aplica o se instruye).
 
 ## Configuración de Agentes
-Las definiciones de habilidades por agente están en `99 System/Agents/`.
+Las definiciones de habilidades por agente están en `99 System/Agents/<agent-name>/<skill-name>/skill`.
