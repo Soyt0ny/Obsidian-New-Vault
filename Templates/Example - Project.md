@@ -2,7 +2,7 @@
 tags:
   - project
   - project
-status: active
+status: active # allowed: in-progress, active, review, finish
 priority: high
 start_date: '{"date":"2024-01-15"}'
 due_date: 2024-04-01

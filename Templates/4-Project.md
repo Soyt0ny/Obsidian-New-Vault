@@ -1,7 +1,7 @@
 ---
 tags:
   - project
-status: active
+status: active # allowed: in-progress, active, review, finish
 priority: medium
 start_date: '{"date":null}'
 due_date:

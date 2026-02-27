@@ -2,7 +2,7 @@
 tags:
   - note
   - note
-status: active
+status: active # allowed: in-progress, active, review, finish
 created: 2024-02-10
 up:
   - - Software Design Patterns
