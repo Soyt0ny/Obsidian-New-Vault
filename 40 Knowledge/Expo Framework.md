@@ -4,7 +4,8 @@ tags:
 status: finish
 created: 2026-02-25
 tech:
-domain:
+  - Expo
+domain: App Development
 ---
 
 # Expo Framework
