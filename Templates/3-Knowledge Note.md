@@ -1,7 +1,7 @@
 ---
 tags:
   - note
-status: active
+status: in-progress
 created:
 tech:
 domain:

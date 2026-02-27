@@ -1,7 +1,7 @@
 ---
 tags:
   - note
-status: finished
+status: finish
 created: 2026-02-25
 tech:
 domain:

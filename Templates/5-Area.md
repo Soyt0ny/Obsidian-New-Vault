@@ -1,9 +1,9 @@
 ---
 tags:
   - area
-status: active # active, maintenance, archived
-priority: high # high, medium, low
-review_cadence: monthly # weekly, monthly, quarterly
+status: active
+priority: high
+review_cadence: monthly
 ---
 
 # Area: {{title}}

@@ -1,7 +1,7 @@
 ---
 tags:
   - course
-status: in-progress
+status: active
 semester: 10
 professor: Dr. Alan Turing
 platform: University

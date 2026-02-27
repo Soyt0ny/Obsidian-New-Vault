@@ -1,7 +1,8 @@
 ---
 tags:
   - note
-status:
+  - note
+status: active
 created: 2024-02-10
 up:
   - - Software Design Patterns

@@ -6,7 +6,7 @@ created: 2026-02-25
 tech:
   - NativeWind
   - Expo
-  - ReactNative
+  - React Native
 domain: App Development
 ---
 

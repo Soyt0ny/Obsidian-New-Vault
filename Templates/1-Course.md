@@ -1,7 +1,7 @@
 ---
 tags:
   - course
-status: in-progress # in-progress, completed
+status: active # active, maintenance, archived
 semester: 
 professor: 
 platform: # Udemy, Coursera, University
