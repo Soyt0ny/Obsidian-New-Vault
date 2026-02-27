@@ -3,8 +3,8 @@ tags:
   - note
 status: finished
 created: 2026-02-25
-Tech:
-Domain:
+tech:
+domain:
 ---
 
 # Expo Framework

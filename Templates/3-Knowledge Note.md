@@ -1,10 +1,10 @@
 ---
 tags:
   - note
-status: in-progress
+status: active
 created:
-Tech:
-Domain:
+tech:
+domain:
 ---
 
 # {{title}}

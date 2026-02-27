@@ -3,9 +3,9 @@ tags:
   - note
 status: finish
 created: 2026-02-25
-Tech:
+tech:
   - NativeWind
-Domain: APP DEVELOPMENT
+domain: App Development
 ---
 
 # Fuentes Personalizadas - NativeWind

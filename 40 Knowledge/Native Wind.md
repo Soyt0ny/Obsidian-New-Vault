@@ -3,11 +3,11 @@ tags:
   - note
 status: finish
 created: 2026-02-25
-Tech:
+tech:
   - NativeWind
   - Expo
   - ReactNative
-Domain: APP DEVELOPMENT
+domain: App Development
 ---
 
 # Native Wind

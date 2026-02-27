@@ -1,12 +1,12 @@
 ---
 tags:
   - note
-status: finished
+status: finish
 created: 2026-02-25
-Tech:
+tech:
   - Expo
-  - ReactNative
-Domain: APP DEVELOPMENT
+  - React Native
+domain: App Development
 ---
 
 # Navegación Expo
