@@ -1,12 +1,12 @@
 ---
 tags:
   - note
-status: finished
+status: finish
 created: 2026-02-25
-Tech:
+tech:
   - Expo
-  - ReactNative
-Domain: APP DEVELOPMENT
+  - React Native
+domain: App Development
 ---
 
 # Stacks Expo
@@ -15,7 +15,7 @@ Domain: APP DEVELOPMENT
 > El **Stack Navigator** (`<Stack />`) en Expo Router gestiona una pila de pantallas donde cada nueva vista se coloca encima de la anterior, proporcionando transiciones nativas y una barra de navegación.
 
 ## Explanation
-Es el tipo de navegación más común, similar a una baraja de cartas. Cuando navegas a una nueva ruta, la pantalla se "empuja" (push) al stack. Cuando regresas, se "extrae" (pop).
+Es el tipo de navegación más común; funciona como una baraja de cartas. Al navegar a una nueva ruta, la pantalla se "empuja" (push) al stack, y al volver se "extrae" (pop).
 
 En **Expo Router**, se define típicamente en un archivo `_layout.tsx`:
 - El componente `<Stack />` envuelve las rutas hijas.
