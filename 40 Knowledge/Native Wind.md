@@ -20,7 +20,7 @@ NativeWind funciona como un puente entre la sintaxis de Tailwind CSS y el sistem
 
 A diferencia de las hojas de estilo tradicionales (`StyleSheet.create`), los estilos se aplican directamente en el JSX, reduciendo el cambio de contexto entre lógica y diseño.
 ## Application / Example
-Uso básico con componentes de React <Native>:
+Uso básico con componentes de React Native:
 
 ```tsx
 import { View, Text } from 'react-native';
@@ -44,6 +44,4 @@ export default function App() {
 
 ## References
 - Source: [Documentación Oficial - Instalación](https://www.nativewind.dev/docs/getting-started/installation)
-- Image:
- ![Imagen De Tailwind Como Funciona.png](../Attachments/Imagen%20De%20Tailwind%20Como%20Funciona.png.png)
 
