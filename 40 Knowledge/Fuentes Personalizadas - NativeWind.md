@@ -30,7 +30,7 @@ Es recomendado usar un `useEffect` en el **Root Layout** para asegurar la carga 
 
 
 ## Connections
-- **Related to:** [Native Wind](../99%20System/Archive/Native%20Wind.md)
+- **Related to:** [[Native Wind]]
 
 ## Application / Example
 

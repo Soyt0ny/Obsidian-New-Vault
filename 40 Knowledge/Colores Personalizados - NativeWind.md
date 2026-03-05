@@ -15,12 +15,12 @@ domain: App Development
 
 ## Explanation
 
-Para poder crear nuevos colores en [Native Wind](Native%20Wind.md) es tan fácil como modificar el archivo de `tailwind.config.js` en este agregaremos nuestro modulo *colors* donde definiremos los distintos valores que tendrán nuestras clases personalizadas.
+Para poder crear nuevos colores en [[Native Wind]] es tan fácil como modificar el archivo de `tailwind.config.js` en este agregaremos nuestro modulo *colors* donde definiremos los distintos valores que tendrán nuestras clases personalizadas.
 
 Después los podremos usar en nuestro código como cualquier otro tipo de variable **NativeWind**
 
 ## Connections
-- **Related to:** [NativeWind](../99%20System/Archive/Native%20Wind.md)
+- **Related to:** [[Native Wind]]
 
 ## Application / Example
 
@@ -73,7 +73,7 @@ Uso de Colores
 ### Tip: Autocompletado en VS Code
 Para obtener autocompletado de estos colores personalizados, asegúrate de tener instalada la extensión **Tailwind CSS IntelliSense** y que tu archivo `tailwind.config.js` esté en la raíz del proyecto.
 ## References
-- Source: [Colores Personalizados NativeWind](https://www.nativewind.dev/docs/customization/colors)
+- Source: [[Colores Personalizados - NativeWind]]
 Image:
 ![](../Attachments/Pasted%20image%2020260225170512.png)
 

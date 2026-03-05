@@ -34,13 +34,13 @@ area: Engineering
 - **Stack:** Expo, React Native
 - **Notes:** 
 - Expo: Usado para la creación de aplicaciones móviles muy parecido a NextJs
-- Ver nota [Expo Framework](../../40%20Knowledge/Expo%20Framework.md) para saber que es.
-	- [Navegación - Expo](../../40%20Knowledge/Navegación%20-%20Expo.md)
-	- [Stacks - Expo](../../40%20Knowledge/Stacks%20-%20Expo.md)
+- Ver nota [[Expo Framework]] para saber que es.
+	- [[Navegación - Expo]]
+	- [[Stacks - Expo]]
 - Native Wind: utilidad para estilos con Tailwind en React Native. 
-- Ver nota [Native Wind](../../40%20Knowledge/Native%20Wind.md) para ejemplos.
-	- [Fuentes Personalizadas - NativeWind](../../40%20Knowledge/Fuentes%20Personalizadas%20-%20NativeWind.md)
-	- [Colores Personalizados - NativeWind](../../40%20Knowledge/Colores%20Personalizados%20-%20NativeWind.md)
+- Ver nota [[Native Wind]] para ejemplos.
+	- [[Fuentes Personalizadas - NativeWind]]
+	- [[Colores Personalizados - NativeWind]]
 
 ## Project Log
 - [[2026-02-21]]: Project started
