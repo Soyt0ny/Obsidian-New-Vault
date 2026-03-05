@@ -18,7 +18,7 @@ review_cadence: monthly # weekly, monthly, quarterly
 
 ## Active Projects
 *Projects currently moving this area forward.*
-[Curso Expo con React  Fernando Herrera](../../20%20Projects/Engineering/Curso%20Expo%20con%20React%20%20Fernando%20Herrera.md)
+[[Curso Expo con React  Fernando Herrera]]
 
 ## Routines & Habits
 - **Daily:** Programar al menos 1 hora.

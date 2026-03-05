@@ -14,13 +14,13 @@ review_cadence: monthly # weekly, monthly, quarterly
 
 ## Current Focus
 - [ ] Completar los videos de Abdul
-- [ ] Leer Libro [Algorithms Ilustrado Grokking](../../99%20System/Books/Algorithms%20Ilustrado%20Grokking.pdf)]
+- [ ] Leer Libro [[Algorithms Ilustrado Grokking.pdf]]
 - [ ] Hacer 100 ejercicios en leetcode
 
 ## Active Projects
 *Projects currently moving this area forward.*
-- [LeetCode Problems](../../20%20Projects/Engineering/LeetCode%20Problems.md)
-- [[Project 2]]
+- [[LeetCode Problems]]
+- [[Aprendizaje de Algoritmos]]
 
 ## Routines & Habits
 - **Daily:** Hacer por lo menos 2 problemas fáciles, leer 5 paginas de un libro relacionado
@@ -38,9 +38,10 @@ review_cadence: monthly # weekly, monthly, quarterly
 - [LeetCode](https://leetcode.com/)
 ##### Documentos
 - [Algoritmos Python](https://runestone.academy/ns/books/published/pythonds/index.html)
-- [Algorithms Ilustrado Grokking](../../99%20System/Books/Algorithms%20Ilustrado%20Grokking.pdf)
-- [Introduction To Algorithms Pro](../../99%20System/Books/Introduction%20To%20Algorithms%20Pro.pdf)
-- [Cracking the Coding Interview](../../99%20System/Books/Cracking%20the%20Coding%20Interview.pdf)
+- [[Algorithms Ilustrado Grokking.pdf]]
+- [[Introduction To Algorithms Pro.pdf]]
+- [[Cracking the Coding Interview.pdf]]
+- [[The Algorithm Design Manual by Steven S. Skiena.pdf]]
 
 ## Log / Updates
 - **YYYY-MM-DD:** Review notes...
