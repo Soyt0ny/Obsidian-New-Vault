@@ -1,64 +1,11 @@
-### PARTE 1: ¿Cómo documentar tus notas en Obsidian?
-
-Cada vez que estudies un algoritmo, un patrón de LeetCode o un concepto matemático, debes crear una nota que siga una estructura fija. Te recomiendo usar esta **Plantilla de Obsidian**.
-
-Copia esto y guárdalo como tu _Template_ en Obsidian:
-
-Markdown
-# 📌 [Nombre del Algoritmo / Concepto / Patrón]
-
-**Etiquetas:** #Algoritmos #LeetCode #IA #Universidad #SemestreX
-**Prerrequisitos:** [[Enlace a notas de conceptos previos necesarios]]
-**Dificultad:** 🟢 Fácil | 🟡 Medio | 🔴 Difícil
-
----
-
-## 📖 1. ¿Qué es y qué problema resuelve?
-(Aquí pegas el resumen conceptual generado por NotebookLM. Explica en lenguaje humano y sencillo para qué sirve este algoritmo o patrón).
-
-## 🧮 2. Análisis Matemático (Lo de la Universidad)
-(Aquí va el rigor que pide tu profesor. Usa las salidas en LaTeX de NotebookLM).
-* **Conteo de Operaciones Elementales (OE):**
-* **Sumatoria Desarrollada:** $$T(n) = \sum_{i=1}^{n} ...$$
-* **Demostración con Límites:**
-  $$\lim_{n \to \infty} \frac{T(n)}{g(n)} = ...$$
-* **Complejidad Final:** * Mejor Caso: $\Omega(1)$
-  * Caso Promedio: $\Theta(n)$
-  * Peor Caso: $O(n^2)$
-
-## 💻 3. Implementación en Python (La Práctica)
-(El código limpio, comentado y optimizado).
-```python
-def nombre_algoritmo(n):
-    # Código aquí
-    pass
-```
-
-## 🧩 4. Patrón LeetCode / Casos de Uso (Para Entrevistas)
+## Patrón LeetCode / Casos de Uso (Para Entrevistas)
 
 - **¿Cuándo usarlo?** (Ej. "Cuando te pidan encontrar el subarreglo más largo...").
-    
 - **Palabras clave en problemas:** (Ej. "Contiguo", "Maximizar", "Ordenado").
-    
 - **Problemas resueltos con este patrón:**
-    
     - [[LeetCode 1 - Two Sum]]
-        
     - [[LeetCode 3 - Longest Substring]]
-        
 
-```
-
-**¿Cómo es el flujo de trabajo?**
-1. Lees tu libro o PDF en NotebookLM.
-2. Le aplicas el "Prompt Maestro" que armamos en el mensaje anterior.
-3. Copias la respuesta de NotebookLM y la acomodas en esta plantilla de Obsidian. 
-
----
-
-### PARTE 2: Plan de Estudios Separado por Áreas
-
-Para no abrumarte, debes ver esto como **3 materias distintas** que puedes estudiar en paralelo a tu propio ritmo.
 
 #### 🏛️ ÁREA 1: Algoritmos Universitarios (Teoría y Matemáticas)
 *Esta es tu prioridad actual para pasar la materia en CUCEI con 100 y entender la ciencia detrás del código.*
@@ -95,8 +42,3 @@ Para no abrumarte, debes ver esto como **3 materias distintas** que puedes estud
 * **Bloque 3: Redes Neuronales y Deep Learning.**
   * Entender el "Descenso de Gradiente" (Gradient Descent): Es un algoritmo puro de optimización basado en derivadas.
   * Perceptrón Multicapa.
-
-**Mi consejo:** Abre Obsidian hoy, crea tres carpetas (1. Universidad, 2. LeetCode, 3. IA) y guarda la plantilla que te di. 
-
-¿Quieres que hagamos el primer ejercicio del **Área 2 (LeetCode)** explicándote el patrón de *Sliding Window* para que veas cómo llenar la plantilla en Obsidian?
-```
