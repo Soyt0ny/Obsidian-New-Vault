@@ -32,6 +32,7 @@
 
 #### 🤖 ÁREA 3: Inteligencia Artificial (El Siguiente Nivel)
 *No toques esto hasta que domines Árboles, Grafos y Python del Área 1 y 2. La IA moderna está construida sobre esos cimientos.*
+
 * **Bloque 1: IA Clásica (Búsqueda).**
   * Algoritmos de búsqueda heurística: **A* (A-Star)** (Es un Dijkstra con "intuición", se usa en videojuegos y mapas).
   * Algoritmo **Minimax** (Para hacer que la IA juegue Ajedrez o Gato contra ti).
