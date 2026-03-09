@@ -70,6 +70,13 @@ Para poder navegar entre nuestros archivos es muy importante saber donde estas e
 
 #### `cd (Change Directory)`
 
+Para poder movernos dentro del sistema de directorios de linux necesitaremos la direccion exacta a donde nos gustaria movernos. La herramienta principal apr ahacer esto es
+*cd* entender este comando es fundamental para poder trabajar desde la terminal
+
+##### Directorios
+
+Existen 2 maneras de poder especificar 
+
 #### `ls (List Diretories)`
 
 #### `touch`
@@ -90,7 +97,17 @@ Para poder navegar entre nuestros archivos es muy importante saber donde estas e
 
 #### `rm (Remove)`
 
-#### `cp (copy)`
+#### `find`
+
+#### `help`
+
+#### `man`
+
+#### `whatis`
+
+#### `alias`
+
+#### `exit`
 ## Connections
 - **Related to:**  [[Curso Linux Labex]]
 - **Contrast with:** [[Opposing Concept]]
