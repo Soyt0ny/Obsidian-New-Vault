@@ -99,7 +99,17 @@ Cuando usamos *ls* podremos usar `flags` las cuales son como comandos extras que
 
 `-a` nos permite poder listar todos los archivos hasta los archivos escondidos básicamente los que empiecen con `.` 
 
-`-l` nos permite listar a los archivos dandonos informacion extra los cuales pueden ser, peso, fecha de permisos/creador/creacion/modificacion/
+`-l` nos permite listar a los archivos dandonos informacion extra los cuales pueden ser, peso, fecha de `permisos/creador/grupo/peso/modificacion/nombre`
+
+`-r` nos listara los archivos al revés de manera alfabética
+
+##### Combinar flags
+
+Podemos combiar las flags en un mismo comando esto hara que podamos modificar la manera en la que funciona el comando de manera especifca
+
+`ls -lar` lista todos los elementos, con informacion extra y de manera alfabetica al revez
+
+`ls -arl` hara exactamente lo mismo no importa el orden de las flags
 
 #### `touch`
 
