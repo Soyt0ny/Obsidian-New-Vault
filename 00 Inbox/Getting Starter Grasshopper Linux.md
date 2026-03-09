@@ -47,9 +47,18 @@ Un sistema Linux se divide en 3 partes principales
 
 ### Que es una Distro en Linux
 
-Las distribuciones son paquetes que tienen el *kernel* de **Linux** , una collecion de aplicaciones, utilidades,librerias etc.
+Las distribuciones son paquetes que tienen el *kernel* de **Linux** , una colección de aplicaciones, utilidades, librerías etc.
 Aparte de que algunas pueden variar entre tener GUI o no.
-Basicamente son diferetens paquete pre armados con caracteristicas diferetnes dependiendo ek
+Básicamente son diferentes paquete pre armados con características diferentes dependiendo el uso que le daremos
+
+### Como escoger una distribucion
+
+Al momento de inentar escoger una distro puede ser un pcoo tedioso debido a ala cantidad de opciones que existen. la clave para poder elegir una es tan sencillo como saber que tan envuelto en el sistema quieres estar y tu nivel de entrada en estos mismos
+
+### Puntos clave a considerar
+
+- **Nivel de Experiencia** Si eres nuevo en linux, se recomeidna buscar distribuciones que sean beginner-friendly . Por ejemplo Ubuento Linux Mint son bastante populares debido a que tanto su instalacion como su uso se parece mucho a otros sistemas operativos. Si ya tienes mas experiencia, puedes llegar a usar distros como Arch Linux o Gentoo
+- **Escritorio** 
 
 ## Connections
 - **Related to:** [[Related Note]]
