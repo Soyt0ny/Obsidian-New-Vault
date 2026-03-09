@@ -10,6 +10,7 @@ domain:
 # Getting Starter Grasshopper Linux
 
 ## Core Idea
+
 > Entender un poco sobre la historia de como se creo Linux , que son las distribuciones y que tipos de distros existen
 
 ## Explanation
@@ -32,7 +33,7 @@ El kernel es el principal encargado de las operaciones de un systema, este actua
 En esencia un Kernel es el en cargado de poder hacer que todo funcione de cierta manera en tu computadora.
 Antes de que se desarrollaran sistemas operativos como **BSD** o **MINIX** no existian kernels que fueran open-source
 
-##
+## Como escoger una distribución
 
 ## Connections
 - **Related to:** [[Related Note]]
