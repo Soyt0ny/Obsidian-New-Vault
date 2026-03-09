@@ -89,7 +89,17 @@ Navegar usando rutas absolutas en un poco complicado por lo cual existen comando
 - `-` Te mueve al ultimo directorio donde estuviste
 #### `ls (List Diretories)`
 
-Ahora que sabemos como movernos al rededor del sistema es importante saber a que podemos acceder 
+Ahora que sabemos como movernos al rededor del sistema es importante saber a que podemos acceder
+
+El comando *ls* nos ayudara a poder listar los arhivos que existan en el directorio actual
+
+##### Flags de ls
+
+Cuando usamos *ls* podremos usar `flags` las cuales son como comandos extras que especifican como funciona el comando
+
+`-a` nos permite poder listar todos los archivos hasta los archivos escondidos básicamente los que empiecen con `.` 
+
+`-l` nos permite listar a los archivos dandonos informacion extra los cuales pueden ser, peso, fecha de permisos/creador/creacion/modificacion/
 
 #### `touch`
 
