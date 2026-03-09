@@ -35,6 +35,8 @@ Antes de que se desarrollaran sistemas operativos como **BSD** o **MINIX** no ex
 
 ## Como escoger una distribución
 
+Como vimos anterior mente cuando hablamos de linux nos referimos al kernel pero tipicamente le llamamos linux a las distrubuciones o `distros` 
+
 ## Connections
 - **Related to:** [[Related Note]]
 - **Contrast with:** [[Opposing Concept]]
