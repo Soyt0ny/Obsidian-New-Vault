@@ -1,10 +1,11 @@
 ---
 tags:
   - note
-status: in-progress
-created:
+status: revision
+created: 2026-03-09
 tech:
-domain:
+  - Linux
+domain: Os
 ---
 
 # Getting Starter Grasshopper Linux
@@ -65,18 +66,8 @@ Al momento de inentar escoger una distro puede ser un pcoo tedioso debido a ala 
 La mejor manera de poder correr una distro sin necesidad de desaparecer tu sistema opertaivo actual es descargandola en una usb y tener algo que se le llama `Live USB`
 
 ## Connections
-- **Related to:** [[Related Note]]
-- **Contrast with:** [[Opposing Concept]]
-
-## Application / Example
-
-Comandos Basicos Linux
-```bash
-echo "Hola" # Echo nos retornara cualquier cosa que le demos en la terminal 
-date # nos dara la fecha/hora/diaSemana/Zona horaria
-expr {operacion} # nos permite hacer operaciones matematicas sencillas +-*/
-clear # elimnina el contenido de la termianl
-```
+- **Related to:** [[Curso Linux Labex]]
+- **Contrast with:** [[Command Line Grasshopper Linux]]
 
 ## References
-- Source: 
+- Source: [Labex Getting Starter](https://labex.io/lesson/linux-history)
