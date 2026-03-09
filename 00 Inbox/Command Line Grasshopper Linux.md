@@ -58,7 +58,15 @@ El arbol de directorio en linux empieza desde el nivel mas alto llamado *root* e
 |-- var
 ```
 
-##### Como entender el
+##### Como entender las rutas de archivos
+
+La locacion/direccion de un archivo se describe de la secuencia de otros directorios/archivos desde un punto de inicio hasta el destino especifico si tienes una carpeta llamada `star` que esta adentro de `/home` y tienes una carpeta llamada `peliculas` adentro de `star` la ruta se veria algo asi `/home/star/peliculas`
+
+##### Como saber donde estoy
+
+Para poder navegar entre nuestros archivos es muy importante saber donde estas en todo momento es por eso que en linux existe *pwd*
+`print workin`
+
 ## Connections
 - **Related to:**  [[Curso Linux Labex]]
 - **Contrast with:** [[Opposing Concept]]
