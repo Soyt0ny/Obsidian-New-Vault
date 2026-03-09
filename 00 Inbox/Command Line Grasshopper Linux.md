@@ -73,9 +73,12 @@ Para poder navegar entre nuestros archivos es muy importante saber donde estas e
 Para poder movernos dentro del sistema de directorios de linux necesitaremos la direccion exacta a donde nos gustaria movernos. La herramienta principal apr ahacer esto es
 *cd* entender este comando es fundamental para poder trabajar desde la terminal
 
-##### Directorios
+##### Entendiendo las rutas
 
-Existen 2 maneras de poder especificar 
+Existen 2 maneras de poder especificar una direcion *absoluta* y *relativa*
+
+- **Rutas absolutas** esta es básicamente una ruta que empieza desde el directorio *root* `/` hasta la direcion a donde nos moveremos
+- **Rutas relativas** las rutas relaticas se usan caundo ya estamos en una direccion y queremos entrar a un subdirectior que esta en el nivel en que estamos no ahce falta escribir toda la ruta absoluta solo ahce falta escribir el lugar a donde nos moveremos, por ejemplo estamos en `home/star/` y 
 
 #### `ls (List Diretories)`
 
