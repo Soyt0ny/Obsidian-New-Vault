@@ -32,11 +32,12 @@ soyt0ny@kuro:/home/pete $
 
 el signo de dinero `$` significa que la terminal esta lista para recibir comandos.
 #### `echo`
+
 El primer comando que aprenderemos sera `echo`
 Este comando es simplemente dice replica lo que la instrucción que nosotros te damos.
 Si enviamos una cadena de texto nos devolverá la misma cadena de texto 
 
-#### `pwd`
+#### `pwd (Print Working Directory)`
 
 En **Linux** el principal concepto es que todo son archivos y se tratan como archivos.
 Estos archivos se organizan de manera gerearcia conocida como una estuctura de archivos.
@@ -65,16 +66,41 @@ La locacion/direccion de un archivo se describe de la secuencia de otros directo
 ##### Como saber donde estoy
 
 Para poder navegar entre nuestros archivos es muy importante saber donde estas en todo momento es por eso que en linux existe *pwd*
-`print workin`
+`print working directory` al ejecutar este comando la shell nos regresara la direccion donde nos encontramos acutalmente empezando desde `/`
 
+#### `cd (Change Directory)`
+
+#### `ls (List Diretories)`
+
+#### `touch`
+
+#### `file`
+
+#### `cat`
+
+#### `less`
+
+#### `history`
+
+#### `cp (Copy)`
+
+#### `mv (Move)`
+
+#### `mkdir (Make Directory)`
+
+#### `rm (Remove)`
+
+#### `cp (copy)`
 ## Connections
 - **Related to:**  [[Curso Linux Labex]]
 - **Contrast with:** [[Opposing Concept]]
 
 ## Application / Example
-```bash
+```shell
 echo "Hello World" #input
 "hello World" # output
+pwd #input
+/home/soyt0ny/Desktop # output
 ```
 
 ## References
