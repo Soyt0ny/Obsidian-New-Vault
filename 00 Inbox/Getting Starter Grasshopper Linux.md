@@ -40,8 +40,12 @@ Antes de que se desarrollaran sistemas operativos como **BSD** o **MINIX** no ex
 - **Contrast with:** [[Opposing Concept]]
 
 ## Application / Example
-```python
-# Code example if applicable
+
+Comandos Basicos Linux
+```bash
+echo "Hola" # Echo nos retornara cualquier cosa que le demos en la terminal 
+date # nos dara la fecha/hora/diaSemana/Zona horaria
+cal # no mostrara 
 ```
 
 ## References
