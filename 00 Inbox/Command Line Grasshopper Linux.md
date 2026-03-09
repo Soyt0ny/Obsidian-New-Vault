@@ -39,7 +39,26 @@ Si enviamos una cadena de texto nos devolverá la misma cadena de texto
 #### `pwd`
 
 En **Linux** el principal concepto es que todo son archivos y se tratan como archivos.
-Estos archivos se 
+Estos archivos se organizan de manera gerearcia conocida como una estuctura de archivos.
+
+##### Arbol de directorios en Linux
+El arbol de directorio en linux empieza desde el nivel mas alto llamado *root* el cual esta representado por un slash `/` de ahi se pueden ver diferetens ramas de directorios siempre llendo hacia abajo
+
+```txt
+/ 
+|-- bin 
+| |-- file1 
+| |-- file2 
+|-- etc 
+| |-- file3 
+| `-- directory1 
+| |-- file4 
+| `-- file5 
+|-- home 
+|-- var
+```
+
+##### Como entender el
 ## Connections
 - **Related to:**  [[Curso Linux Labex]]
 - **Contrast with:** [[Opposing Concept]]
