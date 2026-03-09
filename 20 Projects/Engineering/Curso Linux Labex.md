@@ -1,12 +1,12 @@
 ---
 tags:
   - project
-status: active # allowed: in-progress, active, review, finish
-priority: medium
-start_date: '{"date":null}'
+status: active
+priority: high
+start_date: 2026-03-09
 due_date:
-owner:
-area:
+owner: Soyt0ny
+area: Engineering
 ---
 
 # Project: Curso Linux Labex
@@ -17,16 +17,19 @@ area:
 - **Success Criteria:** Terminal el Curso
 
 ## Objectives & OKRs
-- [ ] Objective 1
-- [ ] Objective 2
+- [ ] Terminar Grasshopper
+- [ ] Terminar JourneyMan
+- [ ] Termianr Networking Nomad
 
 ## Milestones
 - [ ] **Phase 1:** (Date)
 - [ ] **Phase 2:** (Date)
 
 ## Technical Specs
-- **Stack:** 
-- **Architecture:** 
+- **Stack:** Linux y sus herramientas
+### Grasshopper
+
+[[Getting Starter]]
 
 ## Project Log
 - [[YYYY-MM-DD]]: Update description
