@@ -78,8 +78,14 @@ Para poder movernos dentro del sistema de directorios de linux necesitaremos la 
 Existen 2 maneras de poder especificar una direcion *absoluta* y *relativa*
 
 - **Rutas absolutas** esta es básicamente una ruta que empieza desde el directorio *root* `/` hasta la direcion a donde nos moveremos
-- **Rutas relativas** las rutas relaticas se usan caundo ya estamos en una direccion y queremos entrar a un subdirectior que esta en el nivel en que estamos no ahce falta escribir toda la ruta absoluta solo ahce falta escribir el lugar a donde nos moveremos, por ejemplo estamos en `home/star/` y 
+- **Rutas relativas** las rutas relaticas se usan caundo ya estamos en una direccion y queremos entrar a un subdirectior que esta en el nivel en que estamos no ahce falta escribir toda la ruta absoluta solo ahce falta escribir el lugar a donde nos moveremos, por ejemplo estamos en `home/star/` y dentro de este directorio existe `tareas` que es otro directorio no es necesario escribir el path absoluto solamente escribir `/tareas` 
+##### Comandos esenciales 
 
+Navegar usando rutas absolutas en un poco complicado por lo cual existen comandos que nos lo facilitaran al usar *cd* 
+
+- `.` Representa el directorio actual
+- `..` Te mueve un nivel arriba del directorio actual
+- `d` Te mueve al directorio *home* persona
 #### `ls (List Diretories)`
 
 #### `touch`
