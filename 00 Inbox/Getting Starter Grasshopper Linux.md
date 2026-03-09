@@ -57,8 +57,12 @@ Al momento de inentar escoger una distro puede ser un pcoo tedioso debido a ala 
 
 ### Puntos clave a considerar
 
-- **Nivel de Experiencia** Si eres nuevo en linux, se recomeidna buscar distribuciones que sean beginner-friendly . Por ejemplo Ubuento Linux Mint son bastante populares debido a que tanto su instalacion como su uso se parece mucho a otros sistemas operativos. Si ya tienes mas experiencia, puedes llegar a usar distros como Arch Linux o Gentoo
-- **Escritorio** 
+- **Nivel de Experiencia** Si eres nuevo en linux, se recomeidna buscar distribuciones que sean beginner-friendly . Por ejemplo Ubuntu Linux Mint son bastante populares debido a que tanto su instalacion como su uso se parece mucho a otros sistemas operativos. Si ya tienes mas experiencia, puedes llegar a usar distros como Arch Linux o Gentoo
+- **Ambiente de Escritorio** Es el encargado en definir como se sentirá y se vera tu sistema. las opciones mas populares son *GNOME*, *KDE Plasma* y *XFCE*.
+  Tambien existen alternativas mas modernas como *Wayland* 
+- **Administrado de paquetes** Las distribuciones usan los administradores de paquetes para poder installar,actualizar o desisntalar software. Los mas usados son `apt y archivos .deb` para distros basadas en *Debian* y `dnf o yum para archivos .rpm` para distros basadas en *Red-Hat*
+
+La mejor manera de poder correr una distro sin necesidad de desaparecer tu sistema opertaivo actual es descargandola en una usb y tener 
 
 ## Connections
 - **Related to:** [[Related Note]]
