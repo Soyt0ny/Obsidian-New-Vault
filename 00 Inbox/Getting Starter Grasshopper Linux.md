@@ -45,7 +45,8 @@ Comandos Basicos Linux
 ```bash
 echo "Hola" # Echo nos retornara cualquier cosa que le demos en la terminal 
 date # nos dara la fecha/hora/diaSemana/Zona horaria
-cal # no mostrara 
+expr {operacion} # nos permite hacer operaciones matematicas sencillas +-*/
+clear # elimnina el contenido de la termianl
 ```
 
 ## References
