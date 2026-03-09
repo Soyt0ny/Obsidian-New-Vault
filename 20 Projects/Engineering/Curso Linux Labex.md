@@ -29,7 +29,7 @@ area: Engineering
 - **Stack:** Linux y sus herramientas
 ### Grasshopper
 
-[[Getting Starter]]
+[[Getting Starter Grasshopper Linux]]
 
 ## Project Log
 - [[YYYY-MM-DD]]: Update description
