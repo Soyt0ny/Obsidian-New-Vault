@@ -35,7 +35,21 @@ Antes de que se desarrollaran sistemas operativos como **BSD** o **MINIX** no ex
 
 ## Como escoger una distribución
 
-Como vimos anterior mente cuando hablamos de linux nos referimos al kernel pero tipicamente le llamamos linux a las distrubuciones o `distros` 
+Como vimos anterior mente cuando hablamos de linux nos referimos al kernel pero tipicamente le llamamos linux a las distrubuciones o `distros` estan son el sistema operativo completo.
+
+Un sistema Linux se divide en 3 partes principales
+
+- **Hardware** : esto es toda la parte fisicas de la computadora, cpu, memoria, espacios de almacenamiento etc.
+
+- **Linux Kernel** : el encargado de manejar los recuersos del la computadora
+
+- **Espacio de usuario** : aqui es donde nosotros interactuamos con la maquina, ya puede ser atravez de una Ui o desde CLI
+
+### Que es una Distro en Linux
+
+Las distribuciones son paquetes que tienen el *kernel* de **Linux** , una collecion de aplicaciones, utilidades,librerias etc.
+Aparte de que algunas pueden variar entre tener GUI o no.
+Basicamente son diferetens paquete pre armados con caracteristicas diferetnes dependiendo ek
 
 ## Connections
 - **Related to:** [[Related Note]]
