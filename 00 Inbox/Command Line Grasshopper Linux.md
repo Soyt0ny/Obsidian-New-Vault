@@ -25,19 +25,29 @@ Cuando nostros abrimos una *Terminal* o *Consola* lo que hacemos es abrir una se
 En este caso aprenderemos a usar **Bash** `(Bourne Again Shell)` aunque existe otras opciones como *zsh* *ksh* etc. bash es la mas usada en la mayoría de distribuciones.
 
 #### Shell prompt
-Cuando abrimos una terminal la sheel nos saludara con un mensaje usualmente con este formato `username@hostname:directorio_actual$`
+Cuando abrimos una terminal la Shell nos saludara con un mensaje usualmente con este formato `username@hostname:directorio_actual$`
 ```bash
 soyt0ny@kuro:/home/pete $
 ```
 
 el signo de dinero `$` significa que la terminal esta lista para recibir comandos.
+#### `echo`
+El primer comando que aprenderemos sera `echo`
+Este comando es simplemente dice replica lo que la instrucción que nosotros te damos.
+Si enviamos una cadena de texto nos devolverá la misma cadena de texto 
+
+#### `pwd`
+
+En **Linux** el principal concepto es que todo son archivos y se tratan como archivos.
+Estos archivos se 
 ## Connections
 - **Related to:**  [[Curso Linux Labex]]
 - **Contrast with:** [[Opposing Concept]]
 
 ## Application / Example
-```python
-# Code example if applicable
+```bash
+echo "Hello World" #input
+"hello World" # output
 ```
 
 ## References
