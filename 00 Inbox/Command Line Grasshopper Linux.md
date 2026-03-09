@@ -85,8 +85,11 @@ Navegar usando rutas absolutas en un poco complicado por lo cual existen comando
 
 - `.` Representa el directorio actual
 - `..` Te mueve un nivel arriba del directorio actual
-- `d` Te mueve al directorio *home* persona
+- `~` Te mueve al directorio *home* personal
+- `-` Te mueve al ultimo directorio donde estuviste
 #### `ls (List Diretories)`
+
+Ahora que sabemos como movernos al rededor del sistema es importante saber a que podemos acceder 
 
 #### `touch`
 
@@ -127,6 +130,11 @@ echo "Hello World" #input
 "hello World" # output
 pwd #input
 /home/soyt0ny/Desktop # output
+
+cd .  # no te mueve
+cd .. # te mueve a un directorio mas arriba
+cd ~  # te mueve al home personal
+cd -  # te mueve al ultimo directorio en el que estabas
 ```
 
 ## References
