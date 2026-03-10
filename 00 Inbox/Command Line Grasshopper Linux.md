@@ -191,7 +191,13 @@ en este caso tendremos que usar lar rutas absolutas debido a que tenemos que ind
 
 ##### Copiar directorios
 
-Para poder copiar directorios
+Para poder copiar directorios sera necesario usar la flag `-r` esto copiara el directorio que nostros le digamos por completo
+
+##### Como  no eliminar por accidente
+
+Al momento de hacer una copia podemos llegar a reescribir los archivos que esten en la ruta final en caso de que tenga el mismo nombre para esto exite la flag `-i` la cual en caso de encontrar algun archivo con el mismo nombre nos preguntara si queremos sobreescribirlo
+
+`-f` sirve para lo contrario en caso de encontrar algun archivo con el mismo nombre simplemente lo reescribira
 
 #### `mv (Move)`
 
