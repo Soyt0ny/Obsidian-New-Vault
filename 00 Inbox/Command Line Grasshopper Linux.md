@@ -167,6 +167,12 @@ podemos usar `n` para poder navegar al siguiente termino
 
 #### `cp (Copy)`
 
+Uno de los comandos mas importantes o basicos que podemos usar en linux es *cp* es el encargado de poder copiar archivos hacia algun directorio que nosotros escojamos la sintaxis es basicamente `cp [archivo] [direccion de destino]`
+
+por ejemplo digamos que estamos en la ruta `/home/soyt0ny/desktop` y tenemos los siguientes archivos `/fotos holaMundo.html crack.py /programas` 
+
+Queremos mover todos los
+
 #### `mv (Move)`
 
 #### `mkdir (Make Directory)`
