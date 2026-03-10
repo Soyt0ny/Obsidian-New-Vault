@@ -143,6 +143,9 @@ Podemos usar `cat > {nombreDelArchivo}` para poder escribir/agregar contenido a 
 
 ##### Flags comunes en Cat
 
+`-n` Numera la cantidad de lineas que hay en el archivo empezando desde 1
+
+`-b` solo nos dara las lineas que no esten vacias
 
 #### `less`
 
