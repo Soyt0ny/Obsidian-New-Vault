@@ -109,7 +109,7 @@ Podemos combiar las flags en un mismo comando esto hara que podamos modificar la
 
 `ls -lar` lista todos los elementos, con informacion extra y de manera alfabetica al revez
 
-`ls -arl` hara exactamente lo mismo no importa el orden de las flags
+`ls -arl` hara exactamente lo mismo no importa el orden de las flags 
 
 #### `touch`
 
