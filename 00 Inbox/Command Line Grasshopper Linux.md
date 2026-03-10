@@ -1,7 +1,7 @@
 ---
 tags:
   - note
-status: in-progress
+status: review
 created: 2026-03-09
 tech:
   - Linux
@@ -242,7 +242,9 @@ explica como se crean los alias
 
 #### `exit`
 
-para que sirve exit y log
+para que sirve exit y logout
+
+
 ## Connections
 - **Related to:**  [[Curso Linux Labex]]
 - **Contrast with:** [[Opposing Concept]]
