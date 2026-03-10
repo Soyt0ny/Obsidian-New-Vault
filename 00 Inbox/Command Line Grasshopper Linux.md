@@ -145,9 +145,21 @@ Podemos usar `cat > {nombreDelArchivo}` para poder escribir/agregar contenido a 
 
 `-n` Numera la cantidad de lineas que hay en el archivo empezando desde 1
 
-`-b` solo nos dara las lineas que no esten vacias
+`-b` solo nos dara las lineas que no esten vaciasq
 
 #### `less`
+
+El comando *less* nos ayudara a poder leer archivos grandes de manera sencilla debido a que nos dara la opcion de ir 'cambiando de pagina' para poder leerlo de poco en poco ademas de que esto, este comando no imprimira nada en la consoloa que estemos usando
+
+##### Comandos/ Flags  a aprender
+
+Cuando estemos dentro de less podremos usar  Page up Page down Up y Down para podernos mover
+
+si precionamos `g` nos movera directamente al incio del archivo
+si precionamos `G` nos movera al final del archivo 
+si precionamos `h` nos mostrara informacion de ayuda
+
+`/{palabra a busca}`
 
 #### `history`
 
