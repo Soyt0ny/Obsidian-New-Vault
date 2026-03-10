@@ -169,9 +169,19 @@ podemos usar `n` para poder navegar al siguiente termino
 
 Uno de los comandos mas importantes o basicos que podemos usar en linux es *cp* es el encargado de poder copiar archivos hacia algun directorio que nosotros escojamos la sintaxis es basicamente `cp [archivo] [direccion de destino]`
 
-por ejemplo digamos que estamos en la ruta `/home/soyt0ny/desktop` y tenemos los siguientes archivos `/fotos holaMundo.html crack.py /programas` 
+por ejemplo digamos que estamos en la ruta `/home/soyt0ny/desktop` y tenemos los siguientes archivos `/fotos holaMundo.html home.htmnl crack.txt /programas` 
 
-Queremos mover todos los
+Queremos mover `crack.txt` a la carpeta de `/programas` para hacer esto usaremos las rutas relativas en este caso y el comando *cp* 
+
+`cp crack.txt /programas` lo que hara este comando es copiar el archivo adentro del directorio `/programas`
+
+##### Comando de Bulk / Directorios
+
+Si queremos mover varios archivos que nosotros sepamos que tendran cierto patron palabra o caracteres. podremos usar los siguientes 'wildCards'
+
+- `*` Cualquier archivo que tenga este secuencia
+- `?` cualqueir archivo que tenga por lo menos 1 de estos caracteres
+- `[]` cualquier archivo que tenga los caracteres que estan entre los corchetes
 
 #### `mv (Move)`
 
