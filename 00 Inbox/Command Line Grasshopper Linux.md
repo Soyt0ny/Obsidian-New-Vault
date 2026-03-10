@@ -134,7 +134,15 @@ Después de aprender a navegar atravez de los archivos a hora necesitamos saber 
 
 en primer lugar al usar el comando `cat` por si solo pasandole solo un archivo este nos dara su contenido en terminal
 
-``
+`cat holaMundo.txt` 
+
+para poder concatener o juntar archivos sera necesario pasarle como parametros los 2 o mas archivos.
+Imprimiendo en terminal en el orden en que los enviamos
+
+Podemos usar `cat > {nombreDelArchivo}` para poder escribir/agregar contenido a un archivo desde la terminal al momento de termina de escribirlo tendremos que presionar `CTRL + D` para guardar los cambios
+
+##### Flags comunes en Cat
+
 
 #### `less`
 
