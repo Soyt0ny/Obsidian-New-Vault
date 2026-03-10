@@ -117,12 +117,24 @@ Podemos combiar las flags en un mismo comando esto hara que podamos modificar la
 el comando se compone simplemente de `touch {nombre_del_archivo}.{extension}`
 Podemos crear varios archivos al mismo tiempo agregando mas nombres y extensiones
 
-##### Flags 
+##### Flags `touch`
+
+`-r` nos permite cambiar el timeStamp  deun archivo por el de otro para esto tendremos que pasarle el archivo a modificar y el archivo del que tomaremos el time stamp
+
+`-d` podremos pasarle manualmente el timeStamp que queremos agregar al archivo seleccionado
 
 
 #### `file`
 
+El comando *file* simplemente mostrara que tipo de archivo es el archivo que seleccionemos 
+
 #### `cat`
+
+Después de aprender a navegar atravez de los archivos a hora necesitamos saber como poder ver el contenido que estos tienen por lo cual sera necesario a prender el comando *cat* `concatenate` lo cual nos da una pequena pista de que podemos hacer con el
+
+en primer lugar al usar el comando `cat` por si solo pasandole solo un archivo este nos dara su contenido en terminal
+
+``
 
 #### `less`
 
