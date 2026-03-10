@@ -113,6 +113,13 @@ Podemos combiar las flags en un mismo comando esto hara que podamos modificar la
 
 #### `touch`
 
+*touch* es un comando que nos ayudara crear cualquier tipo de archivo vacio.
+el comando se compone simplemente de `touch {nombre_del_archivo}.{extension}`
+Podemos crear varios archivos al mismo tiempo agregando mas nombres y extensiones
+
+##### Flags 
+
+
 #### `file`
 
 #### `cat`
