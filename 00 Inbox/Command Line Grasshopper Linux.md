@@ -159,9 +159,11 @@ si precionamos `g` nos movera directamente al incio del archivo
 si precionamos `G` nos movera al final del archivo 
 si precionamos `h` nos mostrara informacion de ayuda
 
-`/{palabra a busca}`
+para hacer busquedas en el archivo podremos usar `/{palabra a buscar}` y presionar `enter` 
 
-#### `history`
+Para poder navegar entre las palabras seleccionadas 
+podemos usar `n` para poder navegar al siguiente termino  
+`N` para poder navegar al termino anteririos
 
 #### `cp (Copy)`
 
