@@ -19,7 +19,7 @@ review_cadence: monthly
 ## Active Projects
 *Projects currently moving this area forward.*
 - [[Curso Linux Labex]]
-- [[Project 2]]
+- 
 
 ## Routines & Habits
 - **Daily:** 
