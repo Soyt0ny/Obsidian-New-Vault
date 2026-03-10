@@ -28,8 +28,8 @@ area: Engineering
 ## Technical Specs
 - **Stack:** Linux y sus herramientas
 ### Grasshopper
-
 [[Getting Starter Grasshopper Linux]]
+[[Command Line Grasshopper Linux]]
 
 ## Project Log
 - [[YYYY-MM-DD]]: Update description
