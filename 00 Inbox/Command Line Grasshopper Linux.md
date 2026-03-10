@@ -199,23 +199,50 @@ Al momento de hacer una copia podemos llegar a reescribir los archivos que esten
 
 `-f` sirve para lo contrario en caso de encontrar algun archivo con el mismo nombre simplemente lo reescribira
 
+##### Preservar la meta data
+
+Cuando nosotros copiamos un archivo por lo general la meta data ambien se actualiza si queremos mantenerla tendremos que usar la flag de `-p`
+
+
 #### `mv (Move)`
+
+
+Ademas de como renombrar archivos y directorios
+explica como mv varios archivos la flag de `-t` -i -b -v 
 
 #### `mkdir (Make Directory)`
 
+explica como crear directorios , multiples y anidados
+
 #### `rm (Remove)`
+
+explica como eliminar archivos 
+las flag -f -i -r
+rmdir
 
 #### `find`
 
+explica el comando find con su flag type
+
 #### `help`
+
+explica help
 
 #### `man`
 
+explica man
+
 #### `whatis`
+
+explica what is
 
 #### `alias`
 
+explica como se crean los alias
+
 #### `exit`
+
+para que sirve exit y log
 ## Connections
 - **Related to:**  [[Curso Linux Labex]]
 - **Contrast with:** [[Opposing Concept]]
