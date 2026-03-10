@@ -183,6 +183,16 @@ Si queremos mover varios archivos que nosotros sepamos que tendran cierto patron
 - `?` cualqueir archivo que tenga por lo menos 1 de estos caracteres
 - `[]` cualquier archivo que tenga los caracteres que estan entre los corchetes
 
+por ejemplo mover todos los archios `.jpg` de nuestra carpeta `/fotos` en el `/desktop` a la carpetea de fotos que esta un nivel mas arriba de `/desktop`
+
+en este caso tendremos que usar lar rutas absolutas debido a que tenemos que indicar exactamente en donde enviaremos las fotos siendo en este caso esta la ruta `/home/soyt0ny/fotos` 
+
+`cp *.jpg /home/soyt0ny/fotos` esto enviara todos los archivos que justamente tengan .jpg a la carpeta de las fotos
+
+##### Copiar directorios
+
+Para poder copiar directorios
+
 #### `mv (Move)`
 
 #### `mkdir (Make Directory)`
