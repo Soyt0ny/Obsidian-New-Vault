@@ -20,6 +20,12 @@ Existen 3 :
 - Omega - Cota inferior: Es el mejor caso posible
 - Theta - Limite Ajustado: Es la manera de representar el tiempo de ejecucion cuando tiene un limete superior o inferiror. Es la notacion mas precisa
 
+
+Books
+
+ Capitlo 1 [[Algorithms Ilustrado Grokking.pdf]]
+
+
 ## Connections
 - **Related to:** [[Related Note]]
 - **Contrast with:** [[Opposing Concept]]
