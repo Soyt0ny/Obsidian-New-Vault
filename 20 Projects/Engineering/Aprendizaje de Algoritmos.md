@@ -27,7 +27,7 @@ area: Engineering
 - [ ] **Phase 3:** Entender Problemas de *TWO POINTERS*
 
 ## Technical Specs
-- **Notas:** 
+- **Notas:** [[Notación Asintótica]]
 
 ## Project Log
 - [[YYYY-MM-DD]]: Update description
