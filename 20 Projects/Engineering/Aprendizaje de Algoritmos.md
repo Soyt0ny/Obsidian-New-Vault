@@ -27,7 +27,9 @@ area: Engineering
 - [ ] **Phase 3:** Entender Problemas de *TWO POINTERS*
 
 ## Technical Specs
-- **Notas:** [[Notación Asintótica]]
+- **Notas:** 
+[[Notación Asintótica]]
+[[Operaciones Elementales]]
 
 ## Project Log
 - 12/03/2026: Se creo la nota de  [[Notación Asintótica]]
