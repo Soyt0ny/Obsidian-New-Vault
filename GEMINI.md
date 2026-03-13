@@ -15,10 +15,10 @@ This is a personal knowledge management (PKM) vault organized using the **PARA**
 | :--- | :--- |
 | `00 Inbox/` | Initial capture point for unorganized thoughts and notes. |
 | `10 Daily/` | Daily logs named `YYYY-MM-DD.md`. |
-| `20 Projects/` | Active, time-bound efforts (e.g., `Engineering/`, `School/`). |
-| `30 Areas/` | Ongoing responsibilities and skill maintenance (e.g., `Software Engineering/`). |
+| `20 Projects/` | Active projects (e.g., `Engineering/`, `School/`). |
+| `30 Areas/` | Ongoing responsibilities (e.g., `Software Engineering/`). |
 | `40 Knowledge/` | Evergreen atomic notes and research. |
-| `99 System/` | Internal vault management: `Agents/`, `Archive/`, `Attachments/`, `Books/`. |
+| `99-System/` | Internal vault management: `Agents/`, `Archive/`, `Attachments/`, `Books/`. |
 | `Templates/` | Blueprints for creating consistent notes. |
 
 ## Note Conventions & Workflows
@@ -47,12 +47,13 @@ Never create a note from scratch. Use the corresponding template from `Templates
 - **Review:** Only edit/review files where `status: review` is present in the frontmatter.
 - **Enrichment:** When reviewing, add context, examples, or clarifications to make the note "richer."
 - **Completion:** Once a task/note is finalized:
-    1. Change `status` to `finish`.
-    2. Move the file to `99 System/Archive/`.
+    1. Change `status: in-progress` to `status: finish`.
+    2. Move the file to `99-System/Archive/`.
 
 ### 4. AI Agent Configuration
-Custom agent instructions and skills are stored in `99 System/Agents/`.
-Structure: `99 System/Agents/<AgentName>/skills/<SkillName>/SKILL.md`.
+Custom agent instructions and skills are stored in `99-System/Agents/`.
+Structure: `99-System/Agents/skills/<SkillName>/SKILL.md`.
+Global Instructions: `99-System/Agents/AGENTS.md`.
 
 ## Maintenance Commands (Manual/Git)
 
