@@ -44,7 +44,17 @@ Es una notación que define que tan rápido es un algoritmo es importante para p
 
 Imagienes que en una lista de 100 elmentos y cada elemento toma 1 ms en ser leido, si pusieramos a competir una busqueda lineal osea una busqueda de 1 por 1 hatsa llegar a 100 tomaria 100ms en cambio con la busqueda binaria solo tomaria 7ms
 
-Siempre que escribamos la big O 
+Siempre que escribamos la big O, se toma el peor caso es decir el peor tiempo de ejecucion que pueda tener el alghotimo
+
+Es importante saber que existe el caso average pero eso lo veremos despues
+
+Caos comunes de Big O
+
+O(log n)
+O(n)
+O(n* log n )
+O(n^2)
+O(n!)
 ## Connections
 - **Related to:** [[Related Note]]
 - **Contrast with:** [[Opposing Concept]]
