@@ -29,13 +29,23 @@ Books
 
 En búsqueda binara es $log_2$ básicamente porque estamos partiendo la mitad la búsqueda
 
-Busqueda binaria solo sirve cuando una lista esta ordenada, en caso de no estarlo el algoritmos es inutil porque estaria descarcanto elementos casi que al azar
+Busqueda binaria solo sirve cuando una lista esta ordenada, en caso de no estarlo el algoritmos es inutil porque estaría descarcanto elementos casi que al azar
 
 ## Connections
 - **Related to:** [[Related Note]]
 - **Contrast with:** [[Opposing Concept]]
 
 ## Application / Example
+
+```Python
+def BS(array: list[int], target : int) -> int :
+	start = 0
+	end = len(array) - 1 
+	while start <= end :
+		mid = (start + end) // 2
+		if array[mid] == target
+```
+
 ```python
 # Ejemplo de O(1) - Tiempo Constante
 # No importa si la lista tiene 10 o 10 millones de elementos,
