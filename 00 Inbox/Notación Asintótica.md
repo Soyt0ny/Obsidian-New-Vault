@@ -24,15 +24,25 @@ Existen 3 :
 Books
 
  Capitulo 1 [[Algorithms Ilustrado Grokking.pdf]]
+ 
+**Busqueda Binaria**
+
 > *Que son los logaritmos* 
 > Los logaritmos es la forma de representar lo inverso a los exponentes, $log_2 \space 8$ es básicamente decir cuantas veces tengo que multiplicar 2 para llegar a 8.  
 
 En búsqueda binara es $log_2$ básicamente porque estamos partiendo la mitad la búsqueda
 
-Busqueda binaria solo sirve cuando una lista esta ordenada, en caso de no estarlo el algoritmos es inutil porque estaría descarcanto elementos casi que al azar.
+Búsqueda binaria solo sirve cuando una lista esta ordenada, en caso de no estarlo el algoritmos es inútil porque estaría descarcanto elementos casi que al azar.
 
 La búsqueda binaria siempre sera $\text{pasos} = \lfloor \log_2 n \rfloor + 1$ es decir imagina que tienes una lista con 128 elementos el numero de divisiones que hace son 7 pero necesita una comparación extra por lo cual sera 7 + 1 = 8
 
+**Big O notation**
+
+Es una notación que define que tan rápido es un algoritmo es importante para poder calcular que algoritmos es mejor dependiendo de la situacion.
+
+*Como crece el tiempo dependiendo la cantidad de elementos*
+
+Imagienes que en una lista de 100 elmentos y cada elemento toma 1 ms en ser leido, si pusieramos a competir una busqueda lineal osea una busqueda de 1 por 1 hatsa llegar a 100 tomaria 100ms en cambio con la busqueda binaria solo tomaria 7ms
 ## Connections
 - **Related to:** [[Related Note]]
 - **Contrast with:** [[Opposing Concept]]
