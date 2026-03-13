@@ -25,7 +25,11 @@ Books
 
  Capitulo 1 [[Algorithms Ilustrado Grokking.pdf]]
 > *Que son los logaritmos* 
-> Los logaritmos es la forma de representar lo inverso a los exponentes, $log_2 \space 8$ es básicamente decir cuantas veces tengo que multiplicar 2 para llegar a 8.   
+> Los logaritmos es la forma de representar lo inverso a los exponentes, $log_2 \space 8$ es básicamente decir cuantas veces tengo que multiplicar 2 para llegar a 8.  
+
+En búsqueda binara es $log_2$ básicamente porque estamos partiendo la mitad la búsqueda
+
+Busqueda binaria solo sirve cuando una lista esta ordenada, en caso de no estarlo el algoritmos es inutil porque estaria descarcanto elementos casi que al azar
 
 ## Connections
 - **Related to:** [[Related Note]]
