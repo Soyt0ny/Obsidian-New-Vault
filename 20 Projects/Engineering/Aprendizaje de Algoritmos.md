@@ -30,5 +30,5 @@ area: Engineering
 - **Notas:** [[Notación Asintótica]]
 
 ## Project Log
-- [[YYYY-MM-DD]]: Update description
+- 12/03/2026: Se creo la nota de  [[Notación Asintótica]]
 

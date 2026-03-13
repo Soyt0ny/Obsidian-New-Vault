@@ -1,10 +1,10 @@
 ---
 tags:
   - note
-status: in-progress
-created:
+status: review
+created: 2026-03-12
 tech:
-domain:
+domain: Algorithms
 ---
 
 # Notación Asintótica
@@ -56,8 +56,8 @@ O(n* log n )
 O(n^2)
 O(n!)
 ## Connections
-- **Related to:** [[Related Note]]
-- **Contrast with:** [[Opposing Concept]]
+- **Related to:** [[Aprendizaje de Algoritmos]]
+- **Contrast with:** [[Operaciones Elementales]]
 
 ## Application / Example
 
