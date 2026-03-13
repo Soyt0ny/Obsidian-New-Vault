@@ -43,6 +43,8 @@ Es una notación que define que tan rápido es un algoritmo es importante para p
 *Como crece el tiempo dependiendo la cantidad de elementos*
 
 Imagienes que en una lista de 100 elmentos y cada elemento toma 1 ms en ser leido, si pusieramos a competir una busqueda lineal osea una busqueda de 1 por 1 hatsa llegar a 100 tomaria 100ms en cambio con la busqueda binaria solo tomaria 7ms
+
+Siempre que escribamos la big O 
 ## Connections
 - **Related to:** [[Related Note]]
 - **Contrast with:** [[Opposing Concept]]
