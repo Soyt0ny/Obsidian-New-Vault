@@ -1,7 +1,7 @@
 ---
 tags:
   - note
-status: finish
+status: evergreen
 created: 2026-03-12
 tech:
 domain: Algorithms

@@ -13,13 +13,12 @@ This is a personal knowledge management (PKM) vault organized using the **PARA**
 
 | Folder | Purpose |
 | :--- | :--- |
-| `00 Inbox/` | Initial capture point for unorganized thoughts and notes. |
+| `00 Inbox/` | Initial capture point for unorganized thoughts. |
 | `10 Daily/` | Daily logs named `YYYY-MM-DD.md`. |
-| `20 Projects/` | Active projects (e.g., `Engineering/`, `School/`). |
-| `30 Areas/` | Ongoing responsibilities (e.g., `Software Engineering/`). |
+| `20 Projects/` | Active, time-bound efforts (e.g., `Engineering/`, `School/`). |
+| `30 Areas/` | Ongoing responsibilities and skill maintenance (e.g., `Software Engineering/`). |
 | `40 Knowledge/` | Evergreen atomic notes and research. |
-| `99-System/` | Internal vault management: `Agents/`, `Archive/`, `Attachments/`, `Books/`. |
-| `Templates/` | Blueprints for creating consistent notes. |
+| `99-System/` | Internal vault management: `Agents/`, `Archive/`, `Attachments/`. |
 
 ## Note Conventions & Workflows
 
@@ -30,7 +29,7 @@ Example:
 ---
 tags:
   - note
-status: in-progress
+status: in-progress # in-progress, review, evergreen, finish
 tech: React
 domain: Frontend
 ---
@@ -38,17 +37,17 @@ domain: Frontend
 
 ### 2. Mandatory Templates
 Never create a note from scratch. Use the corresponding template from `Templates/`:
-- **Daily Note:** `2-Daily Note.md` (includes Focus, University, Engineering, and Reflection sections).
-- **Project Note:** `4-Project.md` (includes `status`, `owner`, and `area`).
-- **Knowledge Note:** `3-Knowledge Note.md` (includes Core Idea, Explanation, Connections, and References).
-- **Course Note:** `1-Course.md` (includes `semester` and `professor`).
+- **Daily Note:** `2-Daily Note.md`.
+- **Project Note:** `4-Project.md`.
+- **Knowledge Note:** `3-Knowledge Note.md`.
+- **Course Note:** `1-Course.md`.
 
-### 3. Review & Archiving Workflow
+### 3. Review & Knowledge Workflow
 - **Review:** Only edit/review files where `status: review` is present in the frontmatter.
-- **Enrichment:** When reviewing, add context, examples, or clarifications to make the note "richer."
-- **Completion:** Once a task/note is finalized:
-    1. Change `status: in-progress` to `status: finish`.
-    2. Move the file to `99-System/Archive/`.
+- **Enrichment:** When reviewing, add context, examples, or clarifications.
+- **Finalization:** 
+    1. If it's a **Concept/Atomic Note**: Move to `40 Knowledge/` and set `status: evergreen`.
+    2. If it's a **Completed Project/Obsolete**: Move to `99-System/Archive/` and set `status: finish`.
 
 ### 4. AI Agent Configuration
 Custom agent instructions and skills are stored in `99-System/Agents/`.

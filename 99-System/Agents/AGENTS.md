@@ -10,16 +10,16 @@ This file serves as the **primary instruction set** for any AI agent (Claude, Co
 ## 2. Directory Structure
 | Folder | Purpose |
 | :--- | :--- |
-| `00 Inbox/` | Unsorted notes. |
+| `00 Inbox/` | Initial capture point for unorganized thoughts. |
 | `10 Daily/` | Daily logs (`YYYY-MM-DD.md`). |
-| `20 Projects/` | Active projects (e.g., `Engineering/`, `School/`). |
+| `20 Projects/` | Active, time-bound efforts (e.g., `Engineering/`, `School/`). |
 | `30 Areas/` | Ongoing responsibilities (e.g., `Software Engineering/`). |
-| `40 Knowledge/` | Evergreen atomic notes. |
-| `99-System/` | Maintenance, Archives, Templates, Agents. |
+| `40 Knowledge/` | Evergreen atomic notes and research. |
+| `99-System/` | Internal vault management: `Agents/`, `Archive/`, `Attachments/`. |
 
 ## 3. Core Mandates
 1.  **No Emojis:** Do not use emojis in filenames, headers, or content.
-2.  **Frontmatter:** All notes MUST have YAML frontmatter (tags, status, links).
+2.  **Frontmatter:** All notes MUST have YAML frontmatter (`tags`, `status`, `tech`, `domain`).
 3.  **Templates:** Always use the appropriate template from `Templates/` when creating new notes.
 4.  **Links:** Use standard `[[WikiLinks]]`.
 
@@ -34,8 +34,11 @@ This file serves as the **primary instruction set** for any AI agent (Claude, Co
 ---
 tags:
   - note
-status: in-progress
+status: in-progress # options: in-progress, review, evergreen, finish
 created: YYYY-MM-DD
+tech:
+  - TechName
+domain: DomainName
 ---
 ```
 
@@ -45,4 +48,5 @@ created: YYYY-MM-DD
 
 ## 6. Maintenance Workflows
 - **Review:** Check files with `status: review`.
-- **Archive:** Move completed projects/notes to `99-System/Archive/` and set `status: finish`.
+- **Knowledge:** Move finalized review notes to `40 Knowledge/` and set `status: evergreen`.
+- **Archive:** Move completed projects or obsolete info to `99-System/Archive/` and set `status: finish`.
