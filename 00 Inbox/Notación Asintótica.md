@@ -23,8 +23,9 @@ Existen 3 :
 
 Books
 
- Capitlo 1 [[Algorithms Ilustrado Grokking.pdf]]
-
+ Capitulo 1 [[Algorithms Ilustrado Grokking.pdf]]
+> *Que son los logaritmos* 
+> Los logaritmos es la forma de representar lo inverso a los exponentes, $log_2 \space 8$ es básicamente decir cuantas veces tengo que multiplicar 2 para llegar a 8.   
 
 ## Connections
 - **Related to:** [[Related Note]]
