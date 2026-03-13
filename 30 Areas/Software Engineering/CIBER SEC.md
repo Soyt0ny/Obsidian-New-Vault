@@ -1,9 +1,16 @@
 ---
 tags:
   - area
+  
+  
 status: active
 priority: high
 review_cadence: monthly
+tech:
+  - Linux
+  - Kali Linux
+  - Networking
+domain: Security
 ---
 
 # Area: Ciber Seguridad

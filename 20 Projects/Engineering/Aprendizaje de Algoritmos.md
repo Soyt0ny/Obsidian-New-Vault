@@ -1,12 +1,17 @@
 ---
 tags:
   - project
+  
+  
 status: active
 priority: medium
 start_date: 2026-02-26
 due_date:
 owner: Soyt0ny
 area: Engineering
+tech:
+  - Python
+domain: Algorithms
 ---
 
 # Project: Aprendizaje de Algoritmos

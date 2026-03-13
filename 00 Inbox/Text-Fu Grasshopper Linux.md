@@ -1,10 +1,14 @@
 ---
 tags:
   - note
+  
+  
 status: in-progress
-created:
+created: 2026-03-12
 tech:
-domain:
+  - Linux
+  - Bash
+domain: Os
 ---
 
 # Text-Fu Grasshopper Linux

@@ -1,9 +1,16 @@
 ---
 tags:
   - area
+  
+  
 status: active # active, maintenance, archived
 priority: high # high, medium, low
 review_cadence: monthly # weekly, monthly, quarterly
+tech:
+  - React Native
+  - Expo
+  - JavaScript
+domain: Mobile Develop
 ---
 
 # Area: App Development

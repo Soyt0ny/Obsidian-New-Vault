@@ -1,12 +1,18 @@
 ---
 tags:
   - project
+  
+  
 status: active
 priority: high
 start_date: 2026-03-09
 due_date:
 owner: Soyt0ny
 area: Engineering
+tech:
+  - Linux
+  - Bash
+domain: Os
 ---
 
 # Project: Curso Linux Labex

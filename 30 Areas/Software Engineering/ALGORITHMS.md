@@ -1,9 +1,15 @@
 ---
 tags:
   - area
+  
+  
 status: active # active, maintenance, archived
 priority: high # high, medium, low
 review_cadence: monthly # weekly, monthly, quarterly
+tech:
+  - Python
+  - C
+domain: Algorithms
 ---
 
 # Area: ALGORITHMS

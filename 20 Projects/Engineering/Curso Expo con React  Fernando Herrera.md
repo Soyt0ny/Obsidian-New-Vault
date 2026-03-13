@@ -1,12 +1,19 @@
 ---
 tags:
   - project
+  
+  
 status: active
 priority: medium
 start_date: 2026-02-21
 due_date:
 owner: Soyt0ny
 area: Engineering
+tech:
+  - React Native
+  - Expo
+  - JavaScript
+domain: Mobile Develop
 ---
 
 # Project: Curso Expo con React
