@@ -52,7 +52,8 @@ Never create a note from scratch. Use the corresponding template from `Templates
 
 ### 4. AI Agent Configuration
 Custom agent instructions and skills are stored in `99 System/Agents/`.
-Structure: `99 System/Agents/<AgentName>/skills/<SkillName>/SKILL.md`.
+Structure: `99 System/Agents/skills/<SkillName>/SKILL.md`.
+Global Instructions: `99 System/Agents/AGENTS.md`.
 
 ## Maintenance Commands (Manual/Git)
 
