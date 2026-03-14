@@ -26,6 +26,17 @@ Se usa cuando no sabes la cantidad de elementos exactos que estarán en un array
 | **Seguridad**        | Si accedes a `arr[10]` y solo tienes 5 elementos el programa puede colapsar (*Segmentation Fault*) silenciosamente | Puedes usar `v.at(10)` y te lanzara una excepción clara para atrapar el error |
 ### Operaciones mas comunes ($\bigO(1)$) 
 
+- Agregar al final: `{vector}.push_back({elemento})` agrega el elemento al final de la lista
+- Saber el tamano: `{vector}.size()` te devuelve cuantos elementos existen
+- Acceder a un dato `{vector}[{posicion}]` te devuelve el dato que esta en la posicion seleccionada
+- Eliminar el ultimo `{vector}.pop_back()` elimina el ultimo valor del vector
+
+### Vector de Vectores
+
+Un vector de vectores es basicamente una lista que se compone de otras listas
+
+Lo importante aqui es que la gran diferencia es que este tipo de matriz es que cada fila puede tener tamanos distitnos  conocido como *jagged array* / *arreglo dentado*
+
 ## Connections
 - **Related to:** [[Related Note]]
 - **Contrast with:** [[Opposing Concept]]
@@ -36,6 +47,8 @@ Se usa cuando no sabes la cantidad de elementos exactos que estarán en un array
 
 vector<int> numeros; // vector vacio de entero
 vector<string> palabras; //vector de textos
+
+vector<vector<int>> matriz // esto es una matriz de numero enteros
 ```
 
 ## References
