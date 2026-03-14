@@ -35,7 +35,10 @@ Se usa cuando no sabes la cantidad de elementos exactos que estarán en un array
 
 Un vector de vectores es basicamente una lista que se compone de otras listas
 
-Lo importante aqui es que la gran diferencia es que este tipo de matriz es que cada fila puede tener tamanos distitnos  conocido como *jagged array* / *arreglo dentado*
+Lo importante aqui es que la gran diferencia es que este tipo de matriz es que cada fila puede tener tamaños distintas  conocido como *jagged array* / *arreglo dentado*
+
+
+Se puede usar para cosas como grafos etc.
 
 ## Connections
 - **Related to:** [[Related Note]]
