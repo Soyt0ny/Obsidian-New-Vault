@@ -37,6 +37,8 @@ Un vector de vectores es basicamente una lista que se compone de otras listas
 
 Lo importante aqui es que la gran diferencia es que este tipo de matriz es que cada fila puede tener tamaños distintas  conocido como *jagged array* / *arreglo dentado*
 
+Cuando creamos un vector de vectores no podemos simplemente asignar un valor `{vector}[fila][columna]` necesitamos crear esa fila por lo cual tendremos que crear un vector el cual almacenara la cantidad de datos que queremos `vector<int>` lo llenamos capturando el numero y luego con la función `push_back()` lo agregamos al final, cuando este llena esa fila usaremos una vez mas la funcion `push_back()` para agregarla al vector de vectores
+
 
 Se puede usar para cosas como grafos etc.
 
