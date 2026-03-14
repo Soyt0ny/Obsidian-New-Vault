@@ -5,13 +5,13 @@ status: evergreen
 created: 2026-03-14
 tech:
   - C++
-domain: Software Engineering
+domain: Programming Languages
 ---
 
-# Vectores en C++ (std::vector)
+# Vectores en C++ (vector)
 
 ## Core Idea
-> El `std::vector` es un array dinámico que gestiona la memoria automáticamente. Se utiliza cuando no se conoce la cantidad exacta de elementos al inicio, permitiendo agregar más elementos sin problemas.
+> El `vector` es un array dinámico que gestiona la memoria automáticamente. Se utiliza cuando no se conoce la cantidad exacta de elementos al inicio, permitiendo agregar más elementos sin problemas.
 
 ## Explanation
 
@@ -29,7 +29,7 @@ domain: Software Engineering
 - **Agregar al final:** `v.push_back({elemento})` agrega el elemento al final de la lista.
 - **Saber el tamaño:** `v.size()` devuelve cuántos elementos existen.
 - **Acceder a un dato:** `v[posicion]` devuelve el dato en la posición seleccionada.
-- **Eliminar el último:** `v.pop_back()` elimina el último valor del vector.
+- **Eliminar el último:** `v.pop_back()` devuelve el último valor del vector.
 
 ---
 
@@ -50,7 +50,7 @@ Crea las "habitaciones" de una vez y las llena con ceros (para tipos `int`). Aqu
 vector<int> fila(10); // size() es 10, todos son 0
 ```
 
-#### Nota sobre el rendimiento
+#### Nota sobre el rendimiento 
 **¿Es mejor (elementos) porque reserva espacio pero no el valor?**
 En realidad, `vector<int> v(n)` **sí** inicializa los valores (los llena de ceros). 
 - Usar `reserve()` + `push_back()` evita escribir esos ceros iniciales (memoria cruda).
@@ -74,7 +74,7 @@ Se utiliza comúnmente para estructuras como **Grafos** (listas de adyacencia).
 Para imprimir un vector de forma eficiente en C++ moderno:
 ```cpp
 for (const auto& elemento : v) {
-    std::cout << elemento << "\n";
+    cout << elemento << "\n";
 }
 ```
 
@@ -83,17 +83,24 @@ for (const auto& elemento : v) {
 #include <iostream>
 #include <vector>
 
+using namespace std;
+
 int main() {
     // Vector de vectores
-    std::vector<std::vector<int>> matriz;
+    vector<vector<int>> matriz;
     
     // Crear una fila dinámicamente
-    std::vector<int> fila1;
+    vector<int> fila1;
     fila1.push_back(10);
     fila1.push_back(20);
     
     // Agregar la fila a la matriz
     matriz.push_back(fila1);
+    
+    // Imprimir contenido
+    for (int n : fila1) {
+        cout << n << " ";
+    }
     
     return 0;
 }
@@ -104,5 +111,5 @@ int main() {
 - **Contrast with:** Arreglos estáticos de C.
 
 ## References
-- [C++ Reference - std::vector](https://en.cppreference.com/w/cpp/container/vector)
+- [C++ Reference - vector](https://en.cppreference.com/w/cpp/container/vector)
 - Diálogo de aprendizaje sobre gestión de memoria.
