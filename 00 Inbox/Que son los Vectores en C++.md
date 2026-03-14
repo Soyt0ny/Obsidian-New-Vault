@@ -24,6 +24,7 @@ Se usa cuando no sabes la cantidad de elementos exactos que estarán en un array
 | **Memoria**          | Usualmente en *stack* (rapida pero limitada)                                                                       | Los datos vieven en el *Heap* (dinamica, gestinonada, automaticamente)        |
 | **Conoce su tamano** | **No** tienes que calcularclo con `sizeof` o llevar la cuenta tu mismo                                             | **Si**, llamando la funcion `v.size()`                                        |
 | **Seguridad**        | Si accedes a `arr[10]` y solo tienes 5 elementos el programa puede colapsar (*Segmentation Fault*) silenciosamente | Puedes usar `v.at(10)` y te lanzara una excepción clara para atrapar el error |
+|                      |                                                                                                                    |                                                                               |
 ### Operaciones mas comunes ($\bigO(1)$) 
 
 - Agregar al final: `{vector}.push_back({elemento})` agrega el elemento al final de la lista
@@ -31,14 +32,21 @@ Se usa cuando no sabes la cantidad de elementos exactos que estarán en un array
 - Acceder a un dato `{vector}[{posicion}]` te devuelve el dato que esta en la posicion seleccionada
 - Eliminar el ultimo `{vector}.pop_back()` elimina el ultimo valor del vector
 
+
+### Vectores
+
+Para poder declarar un vector sera necesario inicializar nuestro *vector* seguido de nuestro tipo de dato, ademas de declarar le nombre de la variable. en caso de que queramos agregar en ese momento una cantidad X de espacios lo haremos usando `()`
+
+`vector<int> fila` // vector que empieza vacio, sin 
+
 ### Vector de Vectores
 
 Un vector de vectores es basicamente una lista que se compone de otras listas
 
 Lo importante aqui es que la gran diferencia es que este tipo de matriz es que cada fila puede tener tamaños distintas  conocido como *jagged array* / *arreglo dentado*
 
-Cuando creamos un vector de vectores no podemos simplemente asignar un valor `{vector}[fila][columna]` necesitamos crear esa fila por lo cual tendremos que crear un vector el cual almacenara la cantidad de datos que queremos `vector<int>` lo llenamos capturando el numero y luego con la función `push_back()` lo agregamos al final, cuando este llena esa fila usaremos una vez mas la funcion `push_back()` para agregarla al vector de vectores
-
+Cuando creamos un vector de vectores no podemos simplemente asignar un valor `{vector}[fila][columna]` necesitamos crear esa fila por lo cual tendremos que crear un vector el cual almacenara la cantidad de datos que queremos `vector<int>` lo llenamos capturando el numero y luego con la función `push_back()` lo agregamos al final, cuando este llena esa fila usaremos una vez mas la función `push_back()` para agregarla al vector de vectores
+`{vector de vectores}.push_back({vector})`
 
 Se puede usar para cosas como grafos etc.
 
