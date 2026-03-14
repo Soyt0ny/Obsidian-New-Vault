@@ -31,6 +31,8 @@ area: C++
 ## Technical Specs
 - **Stack:** C++ (GCC/Clang), GDB.
 - **Architecture:** Procedural y OOP (Programación Orientada a Objetos).
+- **NOTES:**
+[[Que son los Vectores en C++]]
 
 ## Project Log
 - [[2026-03-14]]: Creación del proyecto y definición de metas iniciales.
