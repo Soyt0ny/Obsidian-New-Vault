@@ -35,7 +35,7 @@ Un constructor tiene estos fundamentos:
 
 ### Plantilla de clases
 
-
+A diferencia de las clases al usar plantillas de clases es una forma de poder definir los diferentes tipo
 
 ## Connections
 - **Related to:** [[Related Note]]
