@@ -50,7 +50,13 @@ Para poder convertir una **Clase** a una *Plantilla de clases* no es nada compli
 Imagina que quieres programar un arbol o un grafo, si no usaras plantillas tendrías que programar un arbol para cada tipo de dato, en este caso al estar usando platillas no seria necesario debido a que el comodín facilita las cosas
 
 ### Especialización de plantillas
-Imagina que una clase funciona extremadamente bien para la mayoría de los casos pero al momento de que el usuario introduce algun 
+Imagina que una clase funciona extremadamente bien para la mayoría de los casos pero al momento de que el usuario introduce un valor *float* la clase se rompe.
+
+La *especialización* le dice al compilador C++ Que use el molde general con todas las otras opciones menos cuando el usuario introduzca un float
+
+#### Sintaxis
+
+En este caso usaremos tambien `template<>` pero no le pasaremos ningun comodin y al momento de declarar la clase especificaremos el tipo de valor que necesita la cla
 
 ## Connections
 - **Related to:** [[Related Note]]
