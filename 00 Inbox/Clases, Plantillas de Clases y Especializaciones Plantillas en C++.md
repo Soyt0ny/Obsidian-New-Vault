@@ -56,7 +56,11 @@ La *especialización* le dice al compilador C++ Que use el molde general con tod
 
 #### Sintaxis
 
-En este caso usaremos tambien `template<>` pero no le pasaremos ningun comodin y al momento de declarar la clase especificaremos el tipo de valor que necesita la cla
+En este caso usaremos también `template<>` pero no le pasaremos ningún comodín y al momento de declarar la clase especificaremos el tipo de valor que necesita la clase para ejecutar la lógica
+
+`class caja<string>{}`
+
+De esta forma en el momento de que el llamemos a la clase y reciba un tipo string la lógica que utilizara es la de la clase que tiene recibe tipos int
 
 ## Connections
 - **Related to:** [[Related Note]]
@@ -119,7 +123,6 @@ class Caja{
 private:
 	// en lugar de usar int, bool, float etc usamos T que es nuestro comodin
 	T contenido;
-}
 
 public:
 	// el contructor recibe un valor con el tipo de dato T que es nuestro comodin
@@ -131,9 +134,11 @@ public:
 	T obtenerContenido(){
 		return contenido
 	}
+}
 
 ```
 
+Usar una plantilla clase:
 ```C++
 // Podemos hacer que la misma clase contenga difereten tipos de datos
 Caja<int> cajaDeNumeros(100);
@@ -143,5 +148,27 @@ Caja<string> cajaDeTextos("Hola Mundo");
 Caja<double> cajaDeDecimales(3.1416);
 ```
 
+
+
+Declarar una especificación de clase: 
+```c++
+template <>
+class Caja<string>{
+private:
+
+	string valor;
+
+public:
+
+	Caja(T valor_inical){
+		contenido = valor_inical;
+	}
+	
+	// un metodo que devuelve un valor T que es nuestro comodin
+	T obtenerContenido(){
+		return contenido
+	}
+}
+```
 ## References
 - Source: 
