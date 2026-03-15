@@ -104,8 +104,20 @@ Declarar una plantilla de clase:
 template <class T>
 class Caja{
 private:
-	T
+	// en lugar de usar int, bool, float etc usamos T que es nuestro comodin
+	T contenido;
 }
+
+public:
+	// el contructor recibe un valor con el tipo de dato T que es nuestro comodin
+	Caja(T valor_inical){
+		contenido = valor_inical;
+	}
+	
+	// un metodo que devuelve un valor T
+	T obtenerContenido(){
+		return contenido
+	}
 
 ```
 
