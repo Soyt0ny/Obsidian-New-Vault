@@ -1,60 +1,33 @@
 # AGENTS.md - Global AI Instructions
 
-This file serves as the **primary instruction set** for any AI agent (Claude, Copilot, ChatGPT, etc.) interacting with this Obsidian Knowledge Vault.
+This file serves as the **primary instruction set** for any AI agent interacting with this Obsidian Knowledge Vault.
 
 ## 1. Vault Overview & Style Mandates
-- **Name:** Soyt0ny's Knowledge Vault.
-- **Methodology:** PARA (Projects, Areas, Resources, Archives).
-- **Tone:** Professional, direct, and senior engineer peer level.
+- **Tone:** Professional, direct, senior engineer peer level.
 - **Strict Rules:**
-    1.  **NO EMOJIS:** Absolutely forbidden in filenames, headers, or body content.
-    2.  **Language Balance:** Use **English** for structural headers (from templates) and **Spanish** for all body content/explanations.
-    3.  **Preservation:** During "Review/Enrichment", **NEVER** delete the user's original thoughts, questions, or process. Add technical context, examples, and corrections *around* them.
-    4.  **C++ Style:** Use `using namespace std;` style in examples. Avoid `std::` prefixing unless specifically required for clarity.
+    1.  **NO EMOJIS:** Absolutely forbidden in any part of the vault.
+    2.  **Language Balance:** Structural headers in **English** (from templates). Body content and explanations in **Spanish**.
+    3.  **C++ Style:** Prefer `using namespace std;` in code examples. Avoid `std::` prefix unless strictly required for clarity.
 
-## 2. Directory Structure
-| Folder | Purpose |
-| :--- | :--- |
-| `00 Inbox/` | Initial capture point for unorganized thoughts. |
-| `10 Daily/` | Daily logs (`YYYY-MM-DD.md`). |
-| `20 Projects/` | Active, time-bound efforts (e.g., `Engineering/`, `School/`). |
-| `30 Areas/` | Ongoing responsibilities (e.g., `Software Engineering/`). |
-| `40 Knowledge/` | Evergreen atomic notes and research. |
-| `99-System/` | Internal vault management: `Agents/`, `Archive/`, `Attachments/`. |
+## 2. Note Writing Standard (The "Soyt0ny" Style)
+When a note is in `status: review`, the agent MUST:
+- **Synthesize & Integrate:** Do NOT use a "Chat" format (e.g., "User said / AI said"). Instead, integrate the user's original thoughts and questions into the technical body of the note.
+- **Rich Markdown Formatting:**
+    - Use **bold** for key terms and *italics* for emphasis or analogies.
+    - Use `inline code` for technical identifiers.
+    - Use Obsidian **Callouts** (`[!tip]`, `[!info]`, `[!warning]`) to highlight doubts, secrets, or "expert tips" derived from the conversation.
+- **Technical Depth:** Include Big O complexity ($\bigO(n)$), memory management details, and "When to use / When to avoid" sections.
+- **Finalization:** Once enriched, move to `40 Knowledge/` and set `status: evergreen`.
 
-## 3. Core Mandates
-1.  **Frontmatter:** All notes MUST have YAML frontmatter (`tags`, `status`, `tech`, `domain`).
-2.  **Templates:** Always use the appropriate template from `Templates/` when creating new notes.
-3.  **Links:** Use standard `[[WikiLinks]]`.
-4.  **Tags:** Keep tags minimal and relevant (e.g., `note`, `project`, `area`). Avoid adding extra tags unless requested.
+## 3. Directory Structure (PARA)
+- `00 Inbox/`: Initial capture point.
+- `10 Daily/`: Daily logs.
+- `20 Projects/`: Time-bound active efforts.
+- `30 Areas/`: Ongoing responsibilities.
+- `40 Knowledge/`: Evergreen atomic notes.
+- `99-System/`: Internal management.
 
-## 4. File Conventions
-### Naming
-- **Daily:** `YYYY-MM-DD`
-- **General:** `NN Name` (e.g., `10 Daily`, `20 Projects`).
-- **Notes:** Descriptive and concise.
-
-### Metadata (YAML)
-```yaml
----
-tags:
-  - note
-status: in-progress # options: in-progress, review, evergreen, finish
-created: YYYY-MM-DD
-tech:
-  - TechName
-domain: DomainName
----
-```
-
-## 5. Agent-Specific Context
-- Agent-specific configurations are located in `99-System/Agents/<AgentName>/`.
-- Shared skills or instructions should be respected across all agents.
-
-## 6. Maintenance Workflows (Review & Enrichment)
-- **Review:** Edit/Review files only where `status: review` is present.
-- **Enrichment Protocol:**
-    - Identify the core concept.
-    - Add technical depth (Complexity, Best Practices, Examples).
-    - **Crucial:** Maintain the user's learning log and original questions (e.g., "Gemini dijo", "Original thought").
-- **Finalization:** Move finalized review notes to `40 Knowledge/` and set `status: evergreen`.
+## 4. Maintenance Workflows
+- **Review:** Process notes where `status: review`.
+- **Enrichment:** Summarize learning logs into permanent technical documentation.
+- **Connections:** Always look for and create `[[WikiLinks]]` to relevant or future notes.
