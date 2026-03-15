@@ -37,10 +37,12 @@ Un constructor tiene estos fundamentos:
 
 A diferencia de las clases al usar plantillas de clases es una forma de decirle a la clase que no importa el tipo de dato que se le entregue actuara de las misma maneras que le digamos.
 
-Mas conocido como *Programacion Dinamica*
+Mas conocido como *Programación Genérica*
 #### Sintaxis
 
-Es importante
+Para poder convertir una **Clase** a una *Plantilla de clases* no es nada complicado, solo necesitas agregar `template<class T>` 
+
+- Template: avisa al compilador
 
 ## Connections
 - **Related to:** [[Related Note]]
