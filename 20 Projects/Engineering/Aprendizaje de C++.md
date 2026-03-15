@@ -32,7 +32,9 @@ area: C++
 - **Stack:** C++ (GCC/Clang), GDB.
 - **Architecture:** Procedural y OOP (Programación Orientada a Objetos).
 - **NOTES:**
-[[Que son los Vectores en C++]]
+[[Vectores en C++]]
+[[Enumeración y Templates en C++]]
+[[Clases, Plantillas de Clases y Especializaciones Plantillas en C++]]
 
 ## Project Log
 - [[2026-03-14]]: Creación del proyecto y definición de metas iniciales.
