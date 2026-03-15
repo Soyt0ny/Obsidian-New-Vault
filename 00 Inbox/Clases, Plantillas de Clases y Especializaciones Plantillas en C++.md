@@ -47,7 +47,10 @@ Para poder convertir una **Clase** a una *Plantilla de clases* no es nada compli
 
 #### Ventajas
 
-Imagina que quieres programar un arbol o un grafo, si no usaras
+Imagina que quieres programar un arbol o un grafo, si no usaras plantillas tendrías que programar un arbol para cada tipo de dato, en este caso al estar usando platillas no seria necesario debido a que el comodín facilita las cosas
+
+### Especialización de plantillas
+Imagina que t
 
 ## Connections
 - **Related to:** [[Related Note]]
