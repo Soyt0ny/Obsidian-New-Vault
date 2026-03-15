@@ -45,6 +45,10 @@ Para poder convertir una **Clase** a una *Plantilla de clases* no es nada compli
 - Template: avisa al compilador que lo que sigue es una plantilla
 - `<class T>` o `<typename T>` Es lo mismo, básicamente le dice a C++, que la letra T sera el comodín, cada vez que en la clase se lea T sera el tipo de dato que el usuario ingreso
 
+#### Ventajas
+
+Imagina que quieres programar un arbol o un grafo, si no usaras
+
 ## Connections
 - **Related to:** [[Related Note]]
 - **Contrast with:** [[Opposing Concept]]
@@ -122,7 +126,7 @@ public:
 ```
 
 ```C++
-// Podemos hacer que la misma clase 
+// Podemos hacer que la misma clase contenga difereten tipos de datos
 Caja<int> cajaDeNumeros(100);
 
 Caja<string> cajaDeTextos("Hola Mundo");
