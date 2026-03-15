@@ -114,11 +114,20 @@ public:
 		contenido = valor_inical;
 	}
 	
-	// un metodo que devuelve un valor T
+	// un metodo que devuelve un valor T que es nuestro comodin
 	T obtenerContenido(){
 		return contenido
 	}
 
+```
+
+```C++
+// Podemos hacer que la misma clase 
+Caja<int> cajaDeNumeros(100);
+
+Caja<string> cajaDeTextos("Hola Mundo");
+
+Caja<double> cajaDeDecimales(3.1416);
 ```
 
 ## References
