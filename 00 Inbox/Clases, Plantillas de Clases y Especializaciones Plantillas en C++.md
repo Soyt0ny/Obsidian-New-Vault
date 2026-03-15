@@ -65,13 +65,17 @@ public:
 ```c++
 int main(){
 
-	string nombre;
+	string nombre; // se declara una variable para recibir el nombre que le pondremosa nuestra constructor
 	
-	cin >> "Introduce el nombre de tu personaje " >> nombre
+	// se guarda el nombre
+	cin >> "Introduce el nombre de tu personaje " >> nombre;
 	
-	Personaje (nombre)
+	// se inicializa el constructor
+	Personaje heroe(nombre);
 	
+	heroe.recibirDano(10);
 	
+	heore.info();
 
 	return 0;
 }
