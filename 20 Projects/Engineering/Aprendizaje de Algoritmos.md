@@ -33,9 +33,9 @@ domain: Algorithms
 
 ## Technical Specs
 - **Notas:** 
-[[Notación Asintótica]]
-[[Operaciones Elementales]]
+[[Notación Asintótica - Algoritmos]] 
+[[Operaciones Elementales - Algoritmos]]
 
 ## Project Log
-- 12/03/2026: Se creo la nota de  [[Notación Asintótica]]
+- 12/03/2026: Se creo la nota de  [[Notación Asintótica - Algoritmos]]
 

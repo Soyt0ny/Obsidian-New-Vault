@@ -71,5 +71,5 @@ int main() {
 ```
 
 ## Connections
-- **Related to:** [[Plantillas de Clases en C++]], [[Enumeración y Templates en C++]]
+- **Related to:** [[Plantillas de Clases - C++]], [[Enumeración y Templates - C++]]
 - **Part of:** [[Aprendizaje de C++]]

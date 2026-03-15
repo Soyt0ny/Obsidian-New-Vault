@@ -64,5 +64,5 @@ int main() {
 ```
 
 ## Connections
-- **Related to:** [[Clases en C++]], [[Especialización de Plantillas de Clases en C++]]
+- **Related to:** [[Clases - C++]], [[Especialización de Plantillas de Clases - C++]]
 - **Part of:** [[Aprendizaje de C++]]

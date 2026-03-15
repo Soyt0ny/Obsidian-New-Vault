@@ -95,7 +95,7 @@ int main() {
 ```
 
 ## Connections
-- **Related to:** [[Vectores en C++]], [[Aprendizaje de Algoritmos]]
+- **Related to:** [[Vectores - C++]], [[Aprendizaje de Algoritmos]]
 - **Contrast with:** Arreglos estáticos y Clases con encapsulamiento privado.
 
 ## References

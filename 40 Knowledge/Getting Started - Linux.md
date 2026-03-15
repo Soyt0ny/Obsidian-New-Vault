@@ -61,7 +61,7 @@ Elegir una distro puede ser abrumador debido a la gran cantidad de opciones. La 
 
 ## Connections
 - **Related to:** [[Curso Linux Labex]]
-- **Contrast with:** [[Command Line Grasshopper Linux]]
+- **Contrast with:** [[Command Line - Linux]]
 
 ## References
 - Source: [Labex Getting Starter](https://labex.io/lesson/linux-history)

@@ -49,7 +49,7 @@ Si cada elemento tarda 1ms:
 
 ## Connections
 - **Related to:** [[Aprendizaje de Algoritmos]]
-- **Contrast with:** [[Operaciones Elementales]]
+- **Contrast with:** [[Operaciones Elementales - Algoritmos]]
 
 ## Application / Example
 

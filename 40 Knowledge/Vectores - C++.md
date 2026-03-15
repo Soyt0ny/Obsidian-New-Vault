@@ -107,7 +107,7 @@ int main() {
 ```
 
 ## Connections
-- **Related to:** [[Notación Asintótica]], [[Aprendizaje de Algoritmos]]
+- **Related to:** [[Notación Asintótica - Algoritmos]], [[Aprendizaje de Algoritmos]]
 - **Contrast with:** Arreglos estáticos de C.
 
 ## References

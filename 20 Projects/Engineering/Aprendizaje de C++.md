@@ -4,9 +4,9 @@ tags:
 status: active
 priority: high
 start_date: '{"date":"2026-03-14"}'
-due_date: 
+due_date:
 owner: Soyt0ny
-area: [[C++]]
+area: C++
 ---
 
 # Project: Aprendizaje de C++

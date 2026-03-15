@@ -113,7 +113,7 @@ Cierra la sesión actual de la terminal.
 
 ## Connections
 - **Related to:** [[Curso Linux Labex]]
-- **Contrast with:** [[Getting Starter Grasshopper Linux]]
+- **Contrast with:** [[Getting Started - Linux]]
 
 ## Application / Example
 ```bash
