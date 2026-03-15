@@ -4,9 +4,9 @@ tags:
 status: active
 priority: high
 start_date: '{"date":"2026-03-14"}'
-due_date:
+due_date: 
 owner: Soyt0ny
-area: C++
+area: [[C++]]
 ---
 
 # Project: Aprendizaje de C++
@@ -20,25 +20,29 @@ area: C++
 	- Implementar 10 algoritmos fundamentales en C++.
 
 ## Objectives & OKRs
-- [ ] Comprender punteros y asignación de memoria.
+- [x] Comprender punteros y asignación de memoria.
 - [ ] Implementar una Lista Enlazada y un Árbol Binario en C++.
-- [ ] Aprender los fundamentos de la STL.
+- [x] Aprender los fundamentos de la STL.
+- [ ] Dominar la Programación Orientada a Objetos (OOP).
 
 ## Milestones
-- [ ] **Phase 1: Sintaxis Básica:** (Finales de Marzo)
+- [x] **Phase 1: Sintaxis Básica:** (Finales de Marzo)
 - [ ] **Phase 2: Implementación de Estructuras de Datos:** (Abril)
 
 ## Technical Specs
 - **Stack:** C++ (GCC/Clang), GDB.
 - **Architecture:** Procedural y OOP (Programación Orientada a Objetos).
-- **NOTES:**
-[[Vectores en C++]]
-[[Enumeración y Templates en C++]]
-[[Clases, Plantillas de Clases y Especializaciones Plantillas en C++]]
 
 ## Project Log
 - [[2026-03-14]]: Creación del proyecto y definición de metas iniciales.
+- [[2026-03-14]]: Procesamiento de notas sobre Clases, Templates y Especialización.
 
 ## Resources & References
 - [Learn C++ (Oficial)](https://www.learncpp.com/)
 - [[Aprendizaje de Algoritmos]]
+- **Path de Aprendizaje:**
+	- [[Vectores en C++]]
+	- [[Enumeración y Templates en C++]]
+	- [[Clases en C++]]
+	- [[Plantillas de Clases]]
+	- [[Especialización de Plantillas de Clases]]
