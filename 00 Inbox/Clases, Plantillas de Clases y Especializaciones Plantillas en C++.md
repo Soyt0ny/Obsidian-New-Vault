@@ -35,7 +35,12 @@ Un constructor tiene estos fundamentos:
 
 ### Plantilla de clases
 
-A diferencia de las clases al usar plantillas de clases es una forma de poder definir los diferentes tipo
+A diferencia de las clases al usar plantillas de clases es una forma de decirle a la clase que no importa el tipo de dato que se le entregue actuara de las misma maneras que le digamos.
+
+Mas conocido como *Programacion Dinamica*
+#### Sintaxis
+
+Es importante
 
 ## Connections
 - **Related to:** [[Related Note]]
