@@ -50,7 +50,7 @@ Para poder convertir una **Clase** a una *Plantilla de clases* no es nada compli
 Imagina que quieres programar un arbol o un grafo, si no usaras plantillas tendrías que programar un arbol para cada tipo de dato, en este caso al estar usando platillas no seria necesario debido a que el comodín facilita las cosas
 
 ### Especialización de plantillas
-Imagina que t
+Imagina que una clase funciona extremadamente bien para la mayoría de los casos pero al momento de que el usuario introduce algun 
 
 ## Connections
 - **Related to:** [[Related Note]]
