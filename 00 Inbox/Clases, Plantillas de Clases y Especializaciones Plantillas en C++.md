@@ -33,6 +33,10 @@ Un constructor tiene estos fundamentos:
 - No devuelve nada es una funcion/metodo de tipo void con la diferencia de que no es neceario declararlo como void
 
 
+### Plantilla de clases
+
+
+
 ## Connections
 - **Related to:** [[Related Note]]
 - **Contrast with:** [[Opposing Concept]]
@@ -70,9 +74,10 @@ int main(){
 	// se guarda el nombre
 	cin >> "Introduce el nombre de tu personaje " >> nombre;
 	
-	// se inicializa el constructor
+	// se inicializa el constructor pasandole la informacion necesario
 	Personaje heroe(nombre);
 	
+	// Se accede a los metodos, en caso de ser necesario se para informacion
 	heroe.recibirDano(10);
 	
 	heore.info();
