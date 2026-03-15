@@ -23,8 +23,10 @@ La manera moderna y recomendada de declararlos es mediante `enum class` (**Scope
 
 > [!tip] Tipado Fuerte (Strong Typing)
 > Al ser una clase, el compilador prohíbe comparar un `int` con un `enum` de forma directa. Esto te obliga a comparar *"peras con peras"*.
-> - **Uso Correcto:** `if(estado == Colors::muerto)`
-> - **Error Común:** `if(estado == 0)` (Esto lanzará un error de compilación, protegiendo tu lógica).
+> - **Uso Correcto:** `Colors estado = Colors::muerto` 
+`if(estado == Colors::muerto)` comparemos estado Colors con un estado Colors
+>
+> - **Error Común:** `if(estado == 0)` (Esto lanzará un error de compilación, protegiendo tu lógica) debido a que estamos comparando un tipo Colors con un int.
 
 ### Templates y Traits
 
