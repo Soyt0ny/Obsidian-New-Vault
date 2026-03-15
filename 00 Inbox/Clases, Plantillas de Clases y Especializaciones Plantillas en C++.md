@@ -38,6 +38,8 @@ Un constructor tiene estos fundamentos:
 - **Contrast with:** [[Opposing Concept]]
 
 ## Application / Example
+
+Declarar clase una clase
 ```c++
 
 class Personaje{
@@ -46,9 +48,31 @@ private:
 	int salud;
 	
 public:
-	Personaje(string nombre_)
+	Personaje(string nombre_personaje){
+		nombre = nombre_personaje
+		salud = 100
+	}
+	void recibirDano(int cantidadDano){
+		salud -= cantidadDano 
+	}
+	
+	void info(){
+		cout << "Tienes " << salud << " Puntos de vida." << '\n'
+	}
 }
+```
 
+```c++
+int main(){
+
+	string nombre;
+	
+	cin >> "Introduce el nombre de tu personaje " >> nombre
+	
+	Persona
+
+	return 0;
+}
 ```
 
 ## References
