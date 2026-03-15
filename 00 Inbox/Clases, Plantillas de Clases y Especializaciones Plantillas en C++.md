@@ -69,7 +69,9 @@ int main(){
 	
 	cin >> "Introduce el nombre de tu personaje " >> nombre
 	
-	Persona
+	Personaje (nombre)
+	
+	
 
 	return 0;
 }
