@@ -1,10 +1,11 @@
 ---
 tags:
   - note
-status: in-progress
-created:
+status: review
+created: 2026-03-14
 tech:
-domain:
+  - C++
+domain: Programming Languages
 ---
 
 # Clases, Plantillas de Clases y Especializaciones Plantillas en C++
@@ -92,7 +93,7 @@ public:
 }
 ```
 
-Uso de Metodos y Constructor de una clase :
+Uso de Métodos y Constructor de una clase :
 ```c++
 int main(){
 
@@ -139,6 +140,7 @@ public:
 ```
 
 Usar una plantilla clase:
+
 ```C++
 // Podemos hacer que la misma clase contenga difereten tipos de datos
 Caja<int> cajaDeNumeros(100);
@@ -151,22 +153,22 @@ Caja<double> cajaDeDecimales(3.1416);
 
 
 Declarar una especificación de clase: 
+
 ```c++
 template <>
-class Caja<string>{
+class Procesador<string>{
 private:
 
 	string valor;
 
 public:
 
-	Caja(T valor_inical){
-		contenido = valor_inical;
+	Procesador(string v){
+		valor =v;
 	}
 	
-	// un metodo que devuelve un valor T que es nuestro comodin
-	T obtenerContenido(){
-		return contenido
+	string procesar(string otro_valor){
+		return valor + ' y ' + otro_valor;
 	}
 }
 ```

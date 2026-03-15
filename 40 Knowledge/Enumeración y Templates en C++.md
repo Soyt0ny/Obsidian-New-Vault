@@ -5,7 +5,7 @@ status: evergreen
 created: 2026-03-14
 tech:
   - C++
-domain: Software Engineering
+domain: Programming Languages
 ---
 
 # Enumeración y Templates en C++
