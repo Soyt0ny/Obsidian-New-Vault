@@ -42,7 +42,8 @@ Mas conocido como *Programación Genérica*
 
 Para poder convertir una **Clase** a una *Plantilla de clases* no es nada complicado, solo necesitas agregar `template<class T>` 
 
-- Template: avisa al compilador
+- Template: avisa al compilador que lo que sigue es una plantilla
+- `<class T>` o `<typename T>` Es lo mismo, básicamente le dice a C++, que la letra T sera el comodín, cada vez que en la clase se lea T sera el tipo de dato que el usuario ingreso
 
 ## Connections
 - **Related to:** [[Related Note]]
@@ -51,6 +52,7 @@ Para poder convertir una **Clase** a una *Plantilla de clases* no es nada compli
 ## Application / Example
 
 Declarar clase una clase
+
 ```c++
 
 class Personaje{
@@ -73,6 +75,7 @@ public:
 }
 ```
 
+Uso de Metodos y Constructor de una clase :
 ```c++
 int main(){
 
@@ -91,6 +94,19 @@ int main(){
 
 	return 0;
 }
+```
+
+
+
+Declarar una plantilla de clase: 
+```C++
+
+template <class T>
+class Caja{
+private:
+	T
+}
+
 ```
 
 ## References
