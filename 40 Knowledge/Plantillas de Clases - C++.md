@@ -8,7 +8,7 @@ tech:
 domain: Programming Languages
 ---
 
-# Plantillas de Clases (Class Templates)
+# Plantillas de Clases en C++
 
 ## Core Idea
 > Los **Class Templates** permiten definir una clase que puede trabajar con **cualquier tipo de dato** sin necesidad de reescribir el código para cada uno. Es la base de la **Programación Genérica**.
@@ -64,5 +64,5 @@ int main() {
 ```
 
 ## Connections
-- **Related to:** [[Clases en C++]], [[Especialización de Plantillas de Clases]]
+- **Related to:** [[Clases en C++]], [[Especialización de Plantillas de Clases en C++]]
 - **Part of:** [[Aprendizaje de C++]]

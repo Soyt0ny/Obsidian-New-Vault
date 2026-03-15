@@ -8,7 +8,7 @@ tech:
 domain: Programming Languages
 ---
 
-# Especialización de Plantillas de Clases
+# Especialización de Plantillas de Clases en C++
 
 ## Core Idea
 > La **Especialización** permite definir una lógica distinta para un tipo de dato específico cuando el "molde general" de la plantilla no es adecuado o eficiente para ese caso.
@@ -71,5 +71,5 @@ int main() {
 ```
 
 ## Connections
-- **Related to:** [[Plantillas de Clases]], [[Enumeración y Templates en C++]]
+- **Related to:** [[Plantillas de Clases en C++]], [[Enumeración y Templates en C++]]
 - **Part of:** [[Aprendizaje de C++]]

@@ -41,8 +41,8 @@ area: [[C++]]
 - [Learn C++ (Oficial)](https://www.learncpp.com/)
 - [[Aprendizaje de Algoritmos]]
 - **Path de Aprendizaje:**
-	- [[Vectores en C++]]
-	- [[Enumeración y Templates en C++]]
-	- [[Clases en C++]]
-	- [[Plantillas de Clases]]
-	- [[Especialización de Plantillas de Clases]]
+	- [[Vectores - C++]]
+	- [[Enumeración y Templates - C++]]
+	- [[Clases - C++]]
+	- [[Plantillas de Clases - C++]]
+	- [[Especialización de Plantillas de Clases - C++]]

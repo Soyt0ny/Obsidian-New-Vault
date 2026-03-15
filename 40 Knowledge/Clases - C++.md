@@ -79,3 +79,4 @@ int main() {
 ## Connections
 - **Related to:** [[Vectores en C++]], [[Enumeración y Templates en C++]]
 - **Part of:** [[Aprendizaje de C++]]
+- [[Plantillas de Clases en C++]]
