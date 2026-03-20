@@ -6,22 +6,24 @@ difficulty: Easy
 platform: LeetCode
 pattern:
   - set
-  - HasMap
+  - HashMap
 tech:
 ---
 
 # Problem Name
 
 ## Description
-Breve descripción del problema en tus propias palabras.
+Encontrar si el arreglo de numero, palabras que nos dan tiene duplicados 
 
 ## Constraints
-- Listado de restricciones relevantes (n size, valores, etc).
+- n == `nums.lenght`
+- 1 <= `n` <= 1000
+- 1 < `nums[i]` <=1000
 
-## Approach: [Pattern Name]
+## Approach: [HashMap] [Set] [BruteForce]
 
 ### Intuition
-Explicación de la lógica detrás de la solución. Por qué elegiste este enfoque.
+Existen 3 manetas en las cuales podemos resolver este 
 
 ### Complexity Analysis
 - **Time Complexity:** $O(n)$ - Explicación detallada de la complejidad temporal.
