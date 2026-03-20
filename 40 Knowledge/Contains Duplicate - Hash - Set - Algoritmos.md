@@ -101,13 +101,14 @@ def has_duplicate_set(nums: list[int]) -> bool:
 
 def has_duplicate_hashmap(nums: list[int]) -> bool:
     """
-    Uso de un set manual para simular el comportamiento de C++.
+    Uso de un diccionario (HashMap) para contar frecuencias.
     """
-    seen = set()
+    counts = {}
     for num in nums:
-        if num in seen:
+        # get(num, 0) devuelve 0 si la key no existe
+        counts[num] = counts.get(num, 0) + 1
+        if counts[num] > 1:
             return True
-        seen.add(num)
     return False
 
 def has_duplicate_counter(nums: list[int]) -> bool:
