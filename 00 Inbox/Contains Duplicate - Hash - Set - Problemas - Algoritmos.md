@@ -79,10 +79,14 @@ bool hasDuplicate_map(const vector<int> &numeros){
 	}
 	return false
 }
-
-
 ```
+
 **Brute Force**
+```c++
+bool hasDuplicate_BruteForce(const vector<int> &numeros){
+
+}
+```
 
 
 ## Key Insights
