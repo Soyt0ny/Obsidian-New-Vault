@@ -60,9 +60,7 @@ bool hasDuplicate(vector<int> & numeros){
 	visto.reserve(numeros.size());
 	for( int numero : numeros){
 		auto res = visto.insert(numero);
-		if(!res.second){
-			return true;
-		}
+		if(!res.second) return true;
 	}
 	return false;
 }
@@ -73,6 +71,14 @@ using namespace std;
 #include <unorder_map>
 #include <vector>
 
+bool hasDuplicate_map(const vector<int> &numeros){
+	unorder_map<int,int> vistos;
+	seen.reserve(numeros.size());
+	for (int numero : numeros){
+		if(++seen[numero] > 1 ) return true;
+	}
+	return false
+}
 
 
 ```
