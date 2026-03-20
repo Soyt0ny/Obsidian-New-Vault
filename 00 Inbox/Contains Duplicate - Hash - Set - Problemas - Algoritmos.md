@@ -123,6 +123,7 @@ Usar `++{map}[{busqueda}]` crea la key y aparte le da un valor en este caso le a
 ## Key Insights
 > [!tip] Aprendizaje Clave
 > Qué aprendiste de este problema o qué técnica específica optimizó la solución.
+> 
 
 ## Related Notes
 - [[ALGORITHMS]]
