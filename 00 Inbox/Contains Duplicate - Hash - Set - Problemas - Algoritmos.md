@@ -103,7 +103,13 @@ cuando usamo `&` al declarar una variable  sigifnica que haremos una referencia,
 Cuando en un for usamos `({iterador} : {objeto a iterar})` es lo mismo que  
 `for(int {iterador} = 0 ; {iterador} <= {objeto a iterar}; ++{iterador})`
 
+Funciones lambda `[{parametro}]` es la manera de poder hacer funciones que solo usaremos una vez en el codigo y que al momento de ejcutarse se elimina de la memoria.
 
+Ademas en este caso le podemos especificar que tipo de variables  puede usar presisamente.
+
+- `[&]` es especificar que queremos que pueda usar cualquier varaible pero que la refencie 
+- `[=]` especificar que haga una copia de las varialbes que se usen en la funcion labnda
+- `[{variable}]` le decimos exactamente la variable que queremos copiar
 
 **Set**
 Al usar *insert* devuelve un objeto con 2 valores, *first* y *second*.
