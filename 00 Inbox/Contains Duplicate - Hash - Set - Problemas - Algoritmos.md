@@ -34,11 +34,18 @@ La estructura de set solo nos permite agregar valores que no estén duplicados, 
 En este aproach es importante recalcar que depende del lenguaje de programacion en este caso, C++ y Python la manera de programarlo son difernetes
 
 **Brute Force**
-Fuerza bruta es la mas ineficiente de todas, debido a que tendriamos que comprar cada elemento con los demas elementos basicamente haci
+Fuerza bruta es la mas ineficiente de todas, debido a que tendriamos que comprar cada elemento con los demas elementos basicamente haciendo un bucle anidado que nos terminaria dando un tiempo de $n^2$ 
 
 ### Complexity Analysis
-- **Time Complexity:** $O(n)$ - Explicación detallada de la complejidad temporal.
-- **Space Complexity:** $O(n)$ - Detalle sobre el uso de memoria (Stack vs Heap) y estructuras auxiliares.
+Hashmap
+- **Time Complexity:** $O(n)$ - No aumenta el tiempo de ejecucion debido a que solamente tendra que pasar por el array una sola vez
+- **Space Complexity:** $O(n)$ - no lo se
+Set
+- **Time Complexity:** $O(n)$ - No aumenta tampoco el tiempo de ejecucion, solamente se necesita pasar 1 vez por los elementos o por casi todos, dependiendo el lenguaje de programacion
+- **Space Complexity:** $O(n)$ - Se aumenta el espacio debido a que creamos un nuevo set
+Brute Force
+**Time Complexity:** $O(n^2)$ 
+**Space Complexity:**
 
 ## Code Implementation
 ```cpp
