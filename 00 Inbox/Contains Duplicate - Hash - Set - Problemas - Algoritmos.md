@@ -49,6 +49,7 @@ Brute Force
 
 ## Code Implementation
 Código en C++
+
 **Set**
 ```cpp
 using namespace std;
@@ -65,6 +66,7 @@ bool hasDuplicate(vector<int> & numeros){
 	return false;
 }
 ```
+
 **Map**
 ```c++
 using namespace std;
@@ -84,11 +86,20 @@ bool hasDuplicate_map(const vector<int> &numeros){
 **Brute Force**
 ```c++
 bool hasDuplicate_BruteForce(const vector<int> &numeros){
-	for(size_t numero = 0 ; x <; numero < numeros.size(); ++numero){
+	for(size_t numero = 0 ; numero < numeros.size(); ++numero){
+		for(size_t segNum = numero + 1) segNum < numeros.size(); ++segNum){
+			if(a[numero] == a[segNum]) return true;
+		}
 	}
+	return false;
 }
 ```
 
+Puntos importantes del codigo;
+
+**General**
+cuando usamo `&` al declarar una variable  sigifnica que haremos una referencia, una referencia es poder usar la informacion de la variable a la cual apuntamos sin neceisdad de llamarla igual. Ejemplo tenemos la varaible ``
+ 
 
 ## Key Insights
 > [!tip] Aprendizaje Clave
