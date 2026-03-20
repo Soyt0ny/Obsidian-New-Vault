@@ -100,14 +100,18 @@ Puntos importantes del codigo;
 **General**
 cuando usamo `&` al declarar una variable  sigifnica que haremos una referencia, una referencia es poder usar la informacion de la variable a la cual apuntamos sin neceisdad de llamarla igual. Ejemplo tenemos la varaible `apodo=tony` si hacemos una variable que referencie a apaodo como `& nombrePila = apodo` lo que estamos haciendo no es crear una nueva variable almacenando una copia de apodo si no que directamente podremos acceder a *apodo* usando *nombrePila*
 
-Cuando en un for usamos `({iterador} : {objeto a iterar})` es lo mismo 
+Cuando en un for usamos `({iterador} : {objeto a iterar})` es lo mismo que  
+`for(int {iterador} = 0 ; {iterador} <= {objeto a iterar}; ++{iterador})`
+
+
 
 **Set**
 Al usar *insert* devuelve un objeto con 2 valores, *first* y *second*.
-- First es el encargadod e decirnos que valor se intento guardar
+- First es el encargado e decirnos que valor se intento guardar
 - Second nos devolverá true o false en caso de que se haya podido agregar
 
 **Map**
+Usar `++{map}[{busqueda}]` crea la key y aparte le da un valor en este caso le asigna el valor automatico de 1  cada vez que 
  
 
 ## Key Insights
