@@ -14,18 +14,20 @@ domain: Algorithms
 # Problem Name
 
 ## Description
-Expandir el array que nos dan duplicandolo
+Expandir el array que nos dan por si mismo, es decir si el array es {1,2,3} tendira que quedar {1,2,3,1,2,3} 
 
 ## Constraints
-- Listado de restricciones relevantes (n size, valores, etc).
+- `n == nums.length`
+- `1 <= n <= 1000`
+- `1 <= nums[i] <= 1000`
 
-## Approach: [Pattern Name]
+## Approach: [Strings]
 
 ### Intuition
-Explicación de la lógica detrás de la solución. Por qué elegiste este enfoque.
+Usar alguna función de insert para agregar el string a si mismo al final  o iterar en el arreglo de nos dieron agregando los valores al nuevo arreglo 2 veces
 
 ### Complexity Analysis
-- **Time Complexity:** $O(n)$ - Explicación detallada de la complejidad temporal.
+- **Time Complexity:** $O(n)$ - En caso de tener el array con el espacio correcto al usar un 
 - **Space Complexity:** $O(n)$ - Detalle sobre el uso de memoria (Stack vs Heap) y estructuras auxiliares.
 
 ## Code Implementation
