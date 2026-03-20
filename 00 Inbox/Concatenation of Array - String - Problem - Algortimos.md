@@ -14,7 +14,7 @@ domain: Algorithms
 # Problem Name
 
 ## Description
-Duoplicar el array que nos dan sin crear 
+Expandir el array que nos dan duplicandolo
 
 ## Constraints
 - Listado de restricciones relevantes (n size, valores, etc).
