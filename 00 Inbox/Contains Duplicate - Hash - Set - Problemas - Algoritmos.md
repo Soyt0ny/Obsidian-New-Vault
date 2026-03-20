@@ -84,7 +84,8 @@ bool hasDuplicate_map(const vector<int> &numeros){
 **Brute Force**
 ```c++
 bool hasDuplicate_BruteForce(const vector<int> &numeros){
-
+	for(size_t numero = 0 ; x <; numero < numeros.size(); ++numero){
+	}
 }
 ```
 
