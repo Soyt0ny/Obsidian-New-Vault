@@ -45,6 +45,7 @@ Existen tres estrategias principales para resolver este problema, cada una con d
 
 ## Code Implementation
 
+### C++ Implementations
 ```cpp
 #include <iostream>
 #include <vector>
@@ -85,25 +86,48 @@ bool hasDuplicate_Map(const vector<int>& nums) {
     }
     return false;
 }
+```
 
-/**
- * @brief Fuerza bruta (No recomendada para N > 1000).
- */
-bool hasDuplicate_Brute(const vector<int>& nums) {
-    int n = nums.size();
-    for (int i = 0; i < n; i++) {
-        for (int j = i + 1; j < n; j++) {
-            if (nums[i] == nums[j]) return true;
-        }
-    }
-    return false;
-}
+### Python Implementations
+```python
+from collections import Counter
+
+def has_duplicate_set(nums: list[int]) -> bool:
+    """
+    Estrategia más eficiente en Python:
+    Comparar la longitud del set con la de la lista original.
+    """
+    return len(set(nums)) != len(nums)
+
+def has_duplicate_hashmap(nums: list[int]) -> bool:
+    """
+    Uso de un set manual para simular el comportamiento de C++.
+    """
+    seen = set()
+    for num in nums:
+        if num in seen:
+            return True
+        seen.add(num)
+    return False
+
+def has_duplicate_counter(nums: list[int]) -> bool:
+    """
+    Uso de collections.Counter para obtener frecuencias.
+    """
+    counts = Counter(nums)
+    for freq in counts.values():
+        if freq > 1:
+            return True
+    return False
 ```
 
 ## Key Insights
 
+> [!tip] Python Idioms: `set()`
+> En Python, la solución `len(set(nums)) != len(nums)` es extremadamente concisa y rápida, ya que la conversión a `set` ocurre en el nivel de implementación de C (CPython), lo que suele ser más veloz que un bucle `for` manual.
+
 > [!info] Gestión de Memoria: Stack vs Heap
-> Las estructuras como `vector`, `unordered_set` y `unordered_map` almacenan sus elementos en el **Heap**. Esto permite manejar grandes volúmenes de datos que excederían el límite del **Stack**, pero requiere una gestión cuidadosa (automatizada por los contenedores de la STL).
+> Las estructuras como `vector`, `unordered_set` y `unordered_map` en C++, así como las `list` y `set` en Python, almacenan sus elementos en el **Heap**. Esto permite manejar grandes volúmenes de datos que excederían el límite del **Stack**. En Python, la gestión del Heap es automática a través del *Garbage Collector*.
 
 > [!tip] Referencias y Rendimiento
 > El uso de `&` (referencias) en los parámetros de la función (ej. `vector<int>& nums`) evita la **copia costosa** del objeto completo. Al usar `const`, aseguramos que la función no modificará los datos originales, manteniendo la integridad del arreglo.
