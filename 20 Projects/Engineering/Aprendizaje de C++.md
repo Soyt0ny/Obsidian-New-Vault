@@ -3,7 +3,7 @@ tags:
   - project
 status: active
 priority: high
-start_date: '{"date":"2026-03-14"}'
+start_date: 2026-03-14
 due_date:
 owner: Soyt0ny
 area: C++
@@ -33,9 +33,6 @@ area: C++
 - **Stack:** C++ (GCC/Clang), GDB.
 - **Architecture:** Procedural y OOP (Programación Orientada a Objetos).
 
-## Project Log
-- [[2026-03-14]]: Creación del proyecto y definición de metas iniciales.
-- [[2026-03-14]]: Procesamiento de notas sobre Clases, Templates y Especialización.
 
 ## Resources & References
 - [Learn C++ (Oficial)](https://www.learncpp.com/)
@@ -44,5 +41,8 @@ area: C++
 	- [[Vectores - C++]]
 	- [[Enumeración y Templates - C++]]
 	- [[Clases - C++]]
+	- [[String Streams - C++]]
 	- [[Plantillas de Clases - C++]]
 	- [[Especialización de Plantillas de Clases - C++]]
+## Project Log
+- 

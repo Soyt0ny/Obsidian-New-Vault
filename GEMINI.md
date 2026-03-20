@@ -41,6 +41,7 @@ Never create a note from scratch. Use the corresponding template from `Templates
 - **Project Note:** `4-Project.md`.
 - **Knowledge Note:** `3-Knowledge Note.md`.
 - **Course Note:** `1-Course.md`.
+- **Problem Note:** `6-Problem Note.md`.
 
 ### 3. Review & Knowledge Workflow
 - **Review:** Only edit/review files where `status: review` is present in the frontmatter.

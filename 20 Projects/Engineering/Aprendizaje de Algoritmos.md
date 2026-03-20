@@ -35,7 +35,9 @@ domain: Algorithms
 - **Notas:** 
 [[Notación Asintótica - Algoritmos]] 
 [[Operaciones Elementales - Algoritmos]]
+[[Sumatorias Matemáticas - Algoritmos]]
 
 ## Project Log
 - 12/03/2026: Se creo la nota de  [[Notación Asintótica - Algoritmos]]
+- 18/03/2025: Se creo la nota de [[Operaciones Elementales - Algoritmos]] y [[Sumatorias Matemáticas - Algoritmos]]
 

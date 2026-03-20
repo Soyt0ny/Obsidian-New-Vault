@@ -33,7 +33,13 @@ domain: Algorithms
 
 ## Technical Specs
 - **Stack:** Python C++
-- **Architecture:** 
+- **Notes**
+
+### Strings - Hash - Set
+
+#### Easy 
+
+[[Contains Duplicate - Hash - Set - Problemas - Algoritmos]]
 
 ## Project Log
 - [[YYYY-MM-DD]]: Update description
