@@ -52,7 +52,8 @@ Código en C++
 **Set**
 ```cpp
 using namespace std;
-#include 
+#include <unorder_set>
+#include <vector>
 
 bool hasDuplicate(vector<int> & numeros){
 	unorder_set<int> visto;
