@@ -9,7 +9,9 @@ platform: LeetCode
 pattern:
   - set
   - HashMap
-tech: C++
+tech:
+  - C++
+  - Python
 domain: Algorithms
 ---
 
