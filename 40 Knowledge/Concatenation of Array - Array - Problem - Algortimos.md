@@ -33,9 +33,9 @@ La solución consiste en duplicar el contenido del arreglo original en un nuevo 
 3.  **Operadores de Concatenación:** En lenguajes de alto nivel como Python, el operador `+` está altamente optimizado para esta tarea.
 
 ### Complexity Analysis
-- **Time Complexity:** $\bigO(n)$
+- **Time Complexity:** $O(n)$
     Recorremos el arreglo original de tamaño $n$ una sola vez. Las operaciones de copia o inserción por rango también operan en tiempo lineal respecto a $n$.
-- **Space Complexity:** $\bigO(n)$
+- **Space Complexity:** $O(n)$
     Se requiere un nuevo arreglo de tamaño $2n$ para almacenar el resultado. Este espacio se asigna dinámicamente en el **Heap**.
 
 ## Code Implementation
@@ -97,7 +97,7 @@ def get_concatenation_multiply(nums: list[int]) -> list[int]:
 ## Key Insights
 
 > [!info] Gestión de Memoria: Reserve vs Constructor
-> En C++, `vector<int> ans(2 * n)` reserva el espacio **y** lo inicializa con ceros (u otro valor por defecto), lo que toma tiempo $\bigO(n)$. Por otro lado, `reserve(2 * n)` solo separa el espacio en el **Heap** sin inicializarlo, lo cual es útil si vamos a usar `push_back()` repetidamente para evitar re-hashes y copias costosas de memoria.
+> En C++, `vector<int> ans(2 * n)` reserva el espacio **y** lo inicializa con ceros (u otro valor por defecto), lo que toma tiempo $O(n)$. Por otro lado, `reserve(2 * n)` solo separa el espacio en el **Heap** sin inicializarlo, lo cual es útil si vamos a usar `push_back()` repetidamente para evitar re-hashes y copias costosas de memoria.
 
 > [!tip] Python Idioms: Operadores de Secuencia
 > El operador `+` en Python para listas invoca internamente un método de concatenación en C que es extremadamente eficiente para copiar bloques de memoria contiguos.
