@@ -44,14 +44,18 @@ Set
 - **Time Complexity:** $O(n)$ - No aumenta tampoco el tiempo de ejecucion, solamente se necesita pasar 1 vez por los elementos o por casi todos, dependiendo el lenguaje de programacion
 - **Space Complexity:** $O(n)$ - Se aumenta el espacio debido a que creamos un nuevo set
 Brute Force
-**Time Complexity:** $O(n^2)$ 
-**Space Complexity:**
+**Time Complexity:** $O(n^2)$ - Al comparar cada elemento uno por 1 significa que estmaos comparando el elemento 1 con todos luego el 2 contodos y asi hasta terminar
+**Space Complexity:** No se necesita mas memoria
 
 ## Code Implementation
+Codigo en C++
 ```cpp
 using namespace std;
 
-// Tu solución aquí
+bool hasDuplicate(vector<int> & numeros){
+	unorder_set<int> visto;
+	visto.reserve(numeros.size());
+}
 ```
 
 ## Key Insights
