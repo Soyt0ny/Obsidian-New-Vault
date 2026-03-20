@@ -48,15 +48,30 @@ Brute Force
 **Space Complexity:** No se necesita mas memoria
 
 ## Code Implementation
-Codigo en C++
+Código en C++
+**Set**
 ```cpp
 using namespace std;
+#include 
 
 bool hasDuplicate(vector<int> & numeros){
 	unorder_set<int> visto;
 	visto.reserve(numeros.size());
+	for( int numero : numeros){
+		auto res = visto.insert(numero);
+		if(!res.second){
+			return true;
+		}
+	}
+	return false;
 }
 ```
+**Map**
+```c++
+
+```
+**Brute Force**
+
 
 ## Key Insights
 > [!tip] Aprendizaje Clave
