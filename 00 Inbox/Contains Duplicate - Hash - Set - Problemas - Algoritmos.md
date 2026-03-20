@@ -69,6 +69,10 @@ bool hasDuplicate(vector<int> & numeros){
 ```
 **Map**
 ```c++
+using namespace std;
+#include <unorder_map>
+#include <vector>
+
 
 ```
 **Brute Force**
