@@ -117,7 +117,7 @@ Al usar *insert* devuelve un objeto con 2 valores, *first* y *second*.
 - Second nos devolverá true o false en caso de que se haya podido agregar
 
 **Map**
-Usar `++{map}[{busqueda}]` crea la key y aparte le da un valor en este caso le asigna el valor automatico de 1  cada vez que 
+Usar `++{map}[{busqueda}]` crea la key y aparte le da un valor en este caso le asigna el valor automático de 1  cada vez que 
  
 
 ## Key Insights
