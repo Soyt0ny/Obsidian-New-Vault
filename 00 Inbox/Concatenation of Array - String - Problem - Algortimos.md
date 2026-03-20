@@ -27,14 +27,20 @@ Expandir el array que nos dan por si mismo, es decir si el array es {1,2,3} tend
 Usar alguna función de insert para agregar el string a si mismo al final  o iterar en el arreglo de nos dieron agregando los valores al nuevo arreglo 2 veces
 
 ### Complexity Analysis
-- **Time Complexity:** $O(n)$ - En caso de tener el array con el espacio correcto al usar un 
+- **Time Complexity:** $O(n)$ - En caso de tener el array con el espacio correcto al usar un método de insert solamente sera $O(1)$ en caso de iterar con un for para agregar los cada valor 2 veces el tiempo sera O(1)
 - **Space Complexity:** $O(n)$ - Detalle sobre el uso de memoria (Stack vs Heap) y estructuras auxiliares.
 
 ## Code Implementation
+
+
 ```cpp
 using namespace std;
 
-// Tu solución aquí
+vector<int> getConcatenation(vector<int> &arr){
+	int n = arr.size()
+	
+	for
+}
 ```
 
 ## Key Insights
