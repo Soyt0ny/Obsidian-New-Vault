@@ -1,18 +1,20 @@
 ---
 tags:
   - problem
+  - string
 status: review
 difficulty: Easy
 platform: LeetCode
 pattern:
+  - string
 tech:
-domain:
+domain: Algorithms
 ---
 
 # Problem Name
 
 ## Description
-Breve descripción del problema en tus propias palabras.
+Duoplicar el array que nos dan sin crear 
 
 ## Constraints
 - Listado de restricciones relevantes (n size, valores, etc).

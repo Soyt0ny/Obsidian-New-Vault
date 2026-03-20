@@ -39,7 +39,7 @@ domain: Algorithms
 
 #### Easy 
 
-- [[Contains Duplicate - Hash - Set - Algoritmos]]
+- [[Contains Duplicate - Hash - Set - Problem -  Algoritmos]]
 
 ## Project Log
 - [[YYYY-MM-DD]]: Update description
