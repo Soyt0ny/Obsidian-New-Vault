@@ -2,9 +2,10 @@
 tags:
   - note
 status: in-progress
-created:
+created: 2026-03-21
 tech:
-domain:
+  - Linux
+domain: Os
 ---
 
 # User Management - Linux
