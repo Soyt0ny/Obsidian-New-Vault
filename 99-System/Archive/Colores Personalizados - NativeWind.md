@@ -75,5 +75,5 @@ Para obtener autocompletado de estos colores personalizados, asegúrate de tener
 ## References
 - Source: [[Colores Personalizados - NativeWind]]
 Image:
-![](../Attachments/Pasted%20image%2020260225170512.png)
+![](Pasted%20image%2020260225170512.png)
 

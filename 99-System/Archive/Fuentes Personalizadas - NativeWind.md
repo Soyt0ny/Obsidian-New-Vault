@@ -117,4 +117,4 @@ export default RootLayout;
 ## References
 - Source: [Font Family NativeWind](https://www.nativewind.dev/docs/tailwind/typography/font-family)
 - Image: 
-![](../Attachments/Pasted%20image%2020260225161540.png)
+![](Pasted%20image%2020260225161540.png)
