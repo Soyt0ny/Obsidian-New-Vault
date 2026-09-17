@@ -139,5 +139,5 @@ vector<vector<int>> threeSum(vector<int>& nums) {
 
 ## Related Notes
 - [[ALGORITHMS]]
-- [[Notacion Asintotica - Algoritmos]]
-- [[Concatenation of Array - Array - Problem - Algortimos]]
+- [[Notación Asintótica - Algoritmos]]
+- [[Concatenation of Array - Array - Problem - Algoritmos]]

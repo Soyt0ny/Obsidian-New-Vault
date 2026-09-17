@@ -80,8 +80,8 @@ La diferencia es que cada cajon solo guarda la presencia del elemento (no un val
 
 ## Connections
 - **Same mechanism:** [[Hash Maps - Algoritmos]] — mismo hash table, distinta API
-- **Related to:** [[Contains Duplicate - Hash - Set - Problem - Algortimos]] — deteccion de duplicados con set
-- **Related to:** [[Valid Sudoku - Hash Set - Matrix - Problem - Algortimos]] — membership test con sets paralelos
+- **Related to:** [[Contains Duplicate - Hash - Set - Problem - Algoritmos]] — deteccion de duplicados con set
+- **Related to:** [[Valid Sudoku - Hash Set - Matrix - Problem - Algoritmos]] — membership test con sets paralelos
 - **Contrast with:** [[Vectores - C++]] — `std::unordered_set` como implementacion
 
 ## Application / Example

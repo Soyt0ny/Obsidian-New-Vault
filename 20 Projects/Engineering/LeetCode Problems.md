@@ -1,8 +1,6 @@
 ---
 tags:
   - project
-  
-  
 status: active
 priority: medium
 start_date: 2026-02-26
@@ -39,11 +37,11 @@ domain: Algorithms
 
 #### Easy 
 
-- [[Contains Duplicate - Hash - Set - Problem - Algortimos]]
-- [[Concatenation of Array - Array - Problem - Algortimos]]
+- [[Contains Duplicate - Hash - Set - Problem - Algoritmos]]
+- [[Concatenation of Array - Array - Problem - Algoritmos]]
 
 ## Project Log
-- [[YYYY-MM-DD]]: Update description
+- **2026-09-17:** (vacío — agregar aquí cuando se resuelva el siguiente problema)
 
 ## Resources & References
 - [RoadMap Neet Code](https://neetcode.io/roadmap)

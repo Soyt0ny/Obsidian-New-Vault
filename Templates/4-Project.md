@@ -30,7 +30,7 @@ area:
 - **Architecture:** 
 
 ## Project Log
-- [[YYYY-MM-DD]]: Update description
+- **YYYY-MM-DD:** Update description
 
 ## Resources & References
 - [Repo Link]()

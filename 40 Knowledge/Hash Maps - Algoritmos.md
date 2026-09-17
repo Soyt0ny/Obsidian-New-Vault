@@ -98,14 +98,14 @@ def contar_frecuencias(palabras):
 
 ## Connections
 - **Related to:** [[Sets - Algoritmos]] — un set es un hash map sin valores
-- **Related to:** [[Notacion Asintotica - Algoritmos]] — para entender $O(1)$, $O(n)$, $O(n \log n)$
-- **Related to:** [[Two Sum - Hash Map - Array - Problem - Algortimos]] — complemento con dict
-- **Related to:** [[Group Anagrams - Hash Map - String - Problem - Algortimos]] — llave canonica con setdefault
-- **Related to:** [[Valid Sudoku - Hash Set - Matrix - Problem - Algortimos]] — sets paralelos
-- **Related to:** [[Contains Duplicate - Hash - Set - Problem - Algortimos]] — mismo hash table, distinto uso
-- **Related to:** [[Concatenation of Array - Array - Problem - Algortimos]] — arrays en memoria contigua
+- **Related to:** [[Notación Asintótica - Algoritmos]] — para entender $O(1)$, $O(n)$, $O(n \log n)$
+- **Related to:** [[Two Sum - Hash Map - Array - Problem - Algoritmos]] — complemento con dict
+- **Related to:** [[Group Anagrams - Hash Map - String - Problem - Algoritmos]] — llave canonica con setdefault
+- **Related to:** [[Valid Sudoku - Hash Set - Matrix - Problem - Algoritmos]] — sets paralelos
+- **Related to:** [[Contains Duplicate - Hash - Set - Problem - Algoritmos]] — mismo hash table, distinto uso
+- **Related to:** [[Concatenation of Array - Array - Problem - Algoritmos]] — arrays en memoria contigua
 - **Contrast with:** [[Vectores - C++]] — implementacion distinta en C++ (`std::unordered_map`)
 
 ## References
 - Source: Sesion de preparacion Amazon — Dia 1 (Junio 19-20, 2026).
-- Problemas de hash map: [[Two Sum - Hash Map - Array - Problem - Algortimos]], [[Group Anagrams - Hash Map - String - Problem - Algortimos]], [[Valid Sudoku - Hash Set - Matrix - Problem - Algortimos]]
+- Problemas de hash map: [[Two Sum - Hash Map - Array - Problem - Algoritmos]], [[Group Anagrams - Hash Map - String - Problem - Algoritmos]], [[Valid Sudoku - Hash Set - Matrix - Problem - Algoritmos]]

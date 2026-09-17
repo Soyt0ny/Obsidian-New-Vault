@@ -39,8 +39,8 @@ domain: Os
 - [[Text-Fu - Linux]]
 
 ## Project Log
-- [[2026-03-09]]: Inicio del curso.
-- [[2026-03-14]]: Estandarización de nombres de notas a "Concepto - Linux".
+- **2026-03-09:** Inicio del curso.
+- **2026-03-14:** Estandarización de nombres de notas a "Concepto - Linux".
 
 ## Resources & References
 - [Labex Curso](https://labex.io/)

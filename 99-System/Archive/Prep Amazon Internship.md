@@ -1,7 +1,7 @@
 ---
 tags:
   - project
-status: active
+status: finish
 priority: high
 start_date: '2026-06-16'
 due_date: '2026-07-16'
@@ -64,9 +64,9 @@ area: Engineering
 - **Focus OA:** Arrays > Two Pointers > Strings > Trees > Linked Lists
 
 ## Project Log
-- [[2026-06-16]]: Creación del plan de emergencia ante la aplicación al internship de Amazon Guadalajara.
-- [[2026-06-19]]: Recibido el OA. Plazo 7 días (hasta 25/06). Cambio a plan crash.
-- [[2026-06-22]]: Extensión de 7 días aprobada. OA reprogramado para Jul 1 (1 día de buffer). Plan actualizado: 10 días con Heaps agregado y Behavioral dedicado. Día 1-2 completados (Hash Maps, Two Pointers + Sliding Window).
+- **2026-06-16:** Creación del plan de emergencia ante la aplicación al internship de Amazon Guadalajara.
+- **2026-06-19:** Recibido el OA. Plazo 7 días (hasta 25/06). Cambio a plan crash.
+- **2026-06-22:** Extensión de 7 días aprobada. OA reprogramado para Jul 1 (1 día de buffer). Plan actualizado: 10 días con Heaps agregado y Behavioral dedicado. Día 1-2 completados (Hash Maps, Two Pointers + Sliding Window).
 
 ## Resources & References
 - [RoadMap NeetCode](https://neetcode.io/roadmap)

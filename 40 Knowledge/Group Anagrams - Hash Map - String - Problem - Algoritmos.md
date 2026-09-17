@@ -73,5 +73,5 @@ print(group_anagrams(["a"]))
 
 ## Related Notes
 - **Concept:** [[Hash Maps - Algoritmos]] — hash table fundamentals y setdefault
-- **Related to:** [[Two Sum - Hash Map - Array - Problem - Algortimos]] — mismo patron de mapeo
-- **Related to:** [[Concatenation of Array - Array - Problem - Algortimos]] — estructura de arrays
+- **Related to:** [[Two Sum - Hash Map - Array - Problem - Algoritmos]] — mismo patron de mapeo
+- **Related to:** [[Concatenation of Array - Array - Problem - Algoritmos]] — estructura de arrays

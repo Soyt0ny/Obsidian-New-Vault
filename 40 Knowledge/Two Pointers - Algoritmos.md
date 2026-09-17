@@ -46,7 +46,7 @@ Los punteros arrancan en extremos opuestos y se acercan al centro.
 - **Util cuando:** el arreglo esta ordenado (o lo podes ordenar) y queres encontrar un par, una tercia, o un area.
 - **Regla de movimiento:** el puntero que movés depende de la condicion. Si `nums[L] + nums[R] < target` -> L++. Si `> target` -> R--. Si `== target` -> match.
 - **Ejemplos canonicos:**
-  - 3Sum (visto en [[3Sum - Array - Two Pointers - Problem - Algortimos]])
+  - 3Sum (visto en [[3Sum - Array - Two Pointers - Problem - Algoritmos]])
   - Container With Most Water
   - Valid Palindrome
   - Two Sum II (arreglo ordenado)
@@ -96,10 +96,10 @@ def remove_duplicates(nums):
 > Aunque parece un doble bucle, en realidad **cada puntero se mueve a lo sumo n veces** en total, no n². El total de movimientos combinados es a lo sumo `2n`. Por eso es lineal, no cuadratico. Esto es valido siempre que cada puntero solo avance (nunca retroceda) o que cada iteracion elimine al menos un candidato.
 
 ## Connections
-- **Used in:** [[3Sum - Array - Two Pointers - Problem - Algortimos]] — variante opuestos con anchor
+- **Used in:** [[3Sum - Array - Two Pointers - Problem - Algoritmos]] — variante opuestos con anchor
 - **Related to:** [[Hash Maps - Algoritmos]] — alternativa cuando el input no se puede ordenar
-- **Related to:** [[Notacion Asintotica - Algoritmos]] — para entender por que O(n) y no O(n²)
-- **Contrast with:** [[Sliding Window]] — patron "primo hermano" para subarrays/substrings
+- **Related to:** [[Notación Asintótica - Algoritmos]] — para entender por que O(n) y no O(n²)
+- **Contrast with:** [[Sliding Window - Algoritmos]] — patron "primo hermano" para subarrays/substrings
 
 ## References
 - Source: Sesion de preparacion Amazon — Dia 2 (Junio 22, 2026).
