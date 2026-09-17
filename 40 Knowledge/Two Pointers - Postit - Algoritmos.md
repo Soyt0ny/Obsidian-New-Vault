@@ -78,5 +78,5 @@ def remove_duplicates(nums):
 ## Conexion
 
 - Version larga con detalle: [[Two Pointers - Algoritmos]]
-- Ejemplo aplicado: [[3Sum - Array - Two Pointers - Problem - Algortimos]]
+- Ejemplo aplicado: [[3Sum - Array - Two Pointers - Problem - Algoritmos]]
 - Plan: [[Prep Amazon Internship]]

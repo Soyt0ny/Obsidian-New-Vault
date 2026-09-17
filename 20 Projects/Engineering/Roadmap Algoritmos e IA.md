@@ -2,41 +2,22 @@
 tags:
   - roadmap
   - algorithms
-  - ai
 status: in-progress
 created: 2026-03-12
 tech:
   - Python
-domain: Computer Science
+domain: Algorithms
 ---
 
-# Roadmap: Algoritmos e Inteligencia Artificial
+# Roadmap: Algoritmos (LeetCode y Patrones)
 
 ## Overview
-Este roadmap define el camino de aprendizaje desde los fundamentos matemáticos de los algoritmos hasta la implementación de modelos de Inteligencia Artificial avanzada.
+Roadmap de práctica de patrones de algoritmos para resolución de problemas (LeetCode), con foco en intuición y velocidad de implementación en Python.
 
-## AREA 1: Algoritmos Universitarios (Teoría y Matemáticas)
-*Prioridad académica para dominar la ciencia detrás del código.*
+> [!info] Recorte del 2026-09-17
+> Este roadmap tenía antes una sección de fundamentos matemáticos universitarios y otra de Inteligencia Artificial. Esas dos las cubren ahora los cursos oficiales de CUCEI, con temario real: ver [[Análisis de Algoritmos - CUCEI]] (fundamentos, complejidad, programación dinámica, voraz, etc.) y [[Aprendizaje Máquina - CUCEI]] (supervisado, no supervisado, profundo). Este roadmap se recorta a lo único que sigue siendo autoestudio propio: patrones de LeetCode.
 
-- **Semana 1-2: Fundamentos Matemáticos**
-    - Repaso de propiedades de logaritmos.
-    - Series aritméticas y geométricas.
-    - Sumatorias de Gauss.
-- **Semana 3-4: Análisis Iterativo**
-    - Cálculo exacto de $T(n)$.
-    - Conteo de Operaciones Elementales (OE).
-    - Demostraciones con límites (Big O, Omega, Theta).
-- **Semana 5-6: Algoritmos Recursivos**
-    - Teorema Maestro.
-    - Cálculo de $T(n)$ para funciones recursivas.
-- **Semana 7-8: Ordenamiento Avanzado**
-    - Merge Sort, Quick Sort, Heap Sort.
-    - Demostraciones matemáticas de eficiencia.
-- **Semana 9-10: Estructuras No Lineales**
-    - Árboles Binarios de Búsqueda (BST).
-    - Grafos: Algoritmos de Dijkstra, Prim y Kruskal.
-
-## AREA 2: Resolución de Problemas y LeetCode (Práctica)
+## Patrones de LeetCode
 *Enfoque en intuición, patrones y velocidad de implementación en Python.*
 
 - **Nivel 1: Arreglos y Cadenas**
@@ -53,20 +34,8 @@ Este roadmap define el camino de aprendizaje desde los fundamentos matemáticos 
 - **Nivel 5: Programación Dinámica (DP)**
     - Memoización: Optimización de subproblemas repetitivos.
 
-## AREA 3: Inteligencia Artificial (El Siguiente Nivel)
-*Requisito: Dominio de las Áreas 1 y 2.*
-
-- **Bloque 1: IA Clásica (Búsqueda)**
-    - Búsqueda heurística: A* (A-Star).
-    - Algoritmo Minimax (Juegos de estrategia).
-- **Bloque 2: Machine Learning Tradicional**
-    - Regresión Lineal y Logística.
-    - K-Nearest Neighbors (KNN) y Árboles de Decisión.
-    - Prerrequisito: Álgebra Lineal y Cálculo.
-- **Bloque 3: Redes Neuronales y Deep Learning**
-    - Descenso de Gradiente (Optimización basada en derivadas).
-    - Perceptrón Multicapa.
-
 ## Connections
 - **Related to:** [[ALGORITHMS]]
 - **Related to:** [[Aprendizaje de Algoritmos]]
+- **Related to:** [[LeetCode Problems]]
+- **Fundamentos y IA ahora cubiertos por:** [[Análisis de Algoritmos - CUCEI]], [[Aprendizaje Máquina - CUCEI]]

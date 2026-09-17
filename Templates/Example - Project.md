@@ -1,10 +1,9 @@
 ---
 tags:
   - project
-  - project
 status: active # allowed: in-progress, active, review, finish
 priority: high
-start_date: '{"date":"2024-01-15"}'
+start_date: 2024-01-15
 due_date: 2024-04-01
 owner: Yo
 area: Engineering
@@ -36,8 +35,8 @@ area: Engineering
 - **Architecture:** Clean Architecture (Handlers -> Services -> Repositories)
 
 ## Project Log
-- [[2024-01-20]]: Repositorio inicializado y Docker Compose configurado.
-- [[2024-02-05]]: Scripts de migración completados para la base de datos.
+- **2024-01-20:** Repositorio inicializado y Docker Compose configurado.
+- **2024-02-05:** Scripts de migración completados para la base de datos.
 
 ## Resources & References
 - [Repo Link](https://github.com/username/finance-tracker)

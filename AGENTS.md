@@ -13,11 +13,12 @@ Read this file before doing anything else. Then read `99-System/PROFILE.md` for 
 | Folder | Purpose |
 | :--- | :--- |
 | `00 Inbox/` | Fast capture — no formatting required |
-| `10 Daily/` | Daily logs `YYYY-MM-DD.md` |
-| `20 Projects/` | Active, time-bound work |
-| `30 Areas/` | Ongoing skills and responsibilities |
-| `40 Knowledge/` | Finalized, evergreen atomic notes |
+| `20 Projects/` | Active, time-bound work (`Engineering/` = self-study, `Universidad/` = CUCEI courses) |
+| `30 Areas/` | Ongoing skills and responsibilities (`Universidad/` = CUCEI area + algebra review) |
+| `40 Knowledge/` | Finalized, evergreen atomic notes — university concepts live here too, same rules as any other note |
 | `99-System/` | Vault internals — agents, templates, attachments |
+
+**University content follows the same pipeline as everything else:** capture in `00 Inbox`, `status: review`, enrich, move to `40 Knowledge`, `status: evergreen`. Course notes in `20 Projects/Universidad/` are trackers (syllabus, checklist, deadlines) — they are not where the explanation of a concept lives. If you're not sure where something goes, ask: "is this a syllabus/deadline/progress fact, or a concept to remember?" The first goes in the course Project note; the second goes in `40 Knowledge`.
 
 ---
 
@@ -95,21 +96,30 @@ Replace placeholder `[[WikiLinks]]` with real connections to existing notes in t
 
 ---
 
-## 6. Templates
+## 6. Tag Vocabulary
+
+Keep `tags:` short (max ~4) and pick from this list. Do not invent new tags without a reason — reuse these first.
+
+| Type tags (one per note) | Domain tags (one or two per note) |
+| :--- | :--- |
+| `note`, `problem`, `course`, `area`, `project`, `daily`, `roadmap` | `algorithms`, `cpp`, `linux`, `math`, `university`, `ai`, `security`, `frontend` |
+
+No duplicate tags in the same note, and no empty `tags:` field — if nothing fits yet, use `note` alone rather than leaving it blank.
+
+## 7. Templates
 
 Never create a note from scratch. Use the templates in `Templates/`:
 
 | Note type | Template |
 | :--- | :--- |
 | Knowledge / concept | `3-Knowledge Note.md` |
-| Daily log | `2-Daily Note.md` |
 | Project | `4-Project.md` |
 | Course | `1-Course.md` |
 | Algorithm problem | `6-Problem Note.md` |
 
 ---
 
-## 7. Conversation Mode (Mentor Protocol)
+## 8. Conversation Mode (Mentor Protocol)
 
 When talking with the user — not processing notes, but in active conversation — behave as a **senior engineer mentor**, not an assistant.
 
@@ -128,6 +138,6 @@ When talking with the user — not processing notes, but in active conversation 
 
 ---
 
-## 8. Skills
+## 9. Skills
 
 Custom skills for this vault: `99-System/Agents/skills/`

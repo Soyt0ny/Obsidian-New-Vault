@@ -3,10 +3,10 @@ tags:
   - project
 status: active # allowed: in-progress, active, review, finish
 priority: medium
-start_date: '{"date":null}'
+start_date:
 due_date:
-owner:
-area:
+owner: Soyt0ny
+area: Engineering
 ---
 
 # Project: TanStack
@@ -44,7 +44,7 @@ Tener una aplicacion con
 [[Routing - TanStack]]
 
 ## Project Log
-- [[YYYY-MM-DD]]: Update description
+- **2026-09-17:** (vacío — agregar aquí cuando avance el proyecto)
 
 ## Resources & References
 - [Repo Link]()

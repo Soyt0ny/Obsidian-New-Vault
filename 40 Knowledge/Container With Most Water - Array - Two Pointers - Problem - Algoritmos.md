@@ -123,5 +123,5 @@ int containerWater(vector<int>& heights) {
 - [[ALGORITHMS]]
 - [[Two Pointers - Algoritmos]] — patron completo con las 2 variantes
 - [[Two Pointers - Postit - Algoritmos]] — referencia rapida de pantalla
-- [[3Sum - Array - Two Pointers - Problem - Algortimos]] — mismo patron, anchor + 2 punteros
-- [[Notacion Asintotica - Algoritmos]] — para entender por que es $O(n)$ y no $O(n^2)$
+- [[3Sum - Array - Two Pointers - Problem - Algoritmos]] — mismo patron, anchor + 2 punteros
+- [[Notación Asintótica - Algoritmos]] — para entender por que es $O(n)$ y no $O(n^2)$

@@ -68,5 +68,5 @@ print(two_sum([3, 2, 4], 6))
 
 ## Related Notes
 - **Concept:** [[Hash Maps - Algoritmos]] — hash table fundamentals
-- **Contrast with:** [[Contains Duplicate - Hash - Set - Problem - Algortimos]] — mismo patron hash, distinto objetivo
-- **Related to:** [[Group Anagrams - Hash Map - String - Problem - Algortimos]] — misma tecnica de mapeo
+- **Contrast with:** [[Contains Duplicate - Hash - Set - Problem - Algoritmos]] — mismo patron hash, distinto objetivo
+- **Related to:** [[Group Anagrams - Hash Map - String - Problem - Algoritmos]] — misma tecnica de mapeo

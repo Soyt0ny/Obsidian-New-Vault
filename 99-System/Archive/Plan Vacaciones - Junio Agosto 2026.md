@@ -1,7 +1,7 @@
 ---
 tags:
   - project
-status: active
+status: finish
 priority: high
 start_date: '2026-06-01'
 due_date: '2026-08-10'

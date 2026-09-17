@@ -91,6 +91,6 @@ print(product_except_self([-1, 1, 0, -3, 3]))
 > A diferencia de los problemas de hash maps, aca no necesitamos el valor y el indice al mismo tiempo. Solo el indice para escribir en `output[i]`. Un `range(n)` alcanza.
 
 ## Related Notes
-- **Related to:** [[Concatenation of Array - Array - Problem - Algortimos]] — arrays y acceso por indice
-- **Contrast with:** [[Two Sum - Hash Map - Array - Problem - Algortimos]] — ahi se usaba dict para buscar complemento; aca no se busca nada, se acumula
-- **Related to:** [[Valid Sudoku - Hash Set - Matrix - Problem - Algortimos]] — ultimo problema del Dia 1, mismo patron de "todo excepto la posicion actual" pero en 2D
+- **Related to:** [[Concatenation of Array - Array - Problem - Algoritmos]] — arrays y acceso por indice
+- **Contrast with:** [[Two Sum - Hash Map - Array - Problem - Algoritmos]] — ahi se usaba dict para buscar complemento; aca no se busca nada, se acumula
+- **Related to:** [[Valid Sudoku - Hash Set - Matrix - Problem - Algoritmos]] — ultimo problema del Dia 1, mismo patron de "todo excepto la posicion actual" pero en 2D

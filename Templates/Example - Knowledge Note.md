@@ -1,13 +1,13 @@
 ---
 tags:
   - note
-  - note
+  - design-patterns
 status: active # allowed: in-progress, active, review, finish
 created: 2024-02-10
 up:
-  - - Software Design Patterns
+  - Software Design Patterns
 related:
-  - - Inversion of Control
+  - Inversion of Control
 ---
 
 # Dependency Injection

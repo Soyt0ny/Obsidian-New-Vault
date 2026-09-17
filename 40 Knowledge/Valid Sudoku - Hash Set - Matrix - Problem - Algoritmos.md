@@ -117,4 +117,4 @@ def validar_sudoku(tablero):
 ## Related Notes
 - **Concept:** [[Sets - Algoritmos]] — membership test con sets
 - **Related to:** [[Hash Maps - Algoritmos]] — mismo hash table subyacente
-- **Related to:** [[Contains Duplicate - Hash - Set - Problem - Algortimos]] — deteccion de duplicados
+- **Related to:** [[Contains Duplicate - Hash - Set - Problem - Algoritmos]] — deteccion de duplicados
